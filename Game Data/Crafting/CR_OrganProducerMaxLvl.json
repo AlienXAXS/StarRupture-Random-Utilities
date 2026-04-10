@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_OrganProducerMaxLvl",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_OrganProducerMaxLvl",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_OrganProducer_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_OrganProducer_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "OrganProducer_name",
+        "SourceString": "Organ Producer",
+        "LocalizedString": "Organ Producer"
+      },
+      "DisplayDescription": {
+        "Namespace": "",
+        "Key": "40C23EE5405FBED70C681996CF04C4B2",
+        "SourceString": "<MISSING STRING TABLE ENTRY>",
+        "LocalizedString": "<MISSING STRING TABLE ENTRY>"
+      },
+      "Level": 10,
+      "Corporation": "FutureCorporation",
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_OrganProducer.I_OrganProducer_C'",
+          "Value": 1
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Bioprinter_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Bioprinter.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_GenomeAlternator_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_GenomeAlternator.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_OrganProducer_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_OrganProducer.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 6.0
+    }
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_CleanWater",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_CleanWater",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'WhiteSquareTexture'",
+          "ObjectPath": "/Engine/EngineResources/WhiteSquareTexture.0"
+        }
+      },
+      "DisplayText": {
+        "Namespace": "",
+        "Key": "406C4E2F4FD55AED6D047CA915F5E4C6",
+        "SourceString": "<MISSING STRING TABLE ENTRY>",
+        "LocalizedString": "<MISSING STRING TABLE ENTRY>"
+      },
+      "DisplayDescription": {
+        "Namespace": "",
+        "Key": "42E3F6E2416DE647E77534BE726DD6F1",
+        "SourceString": "<MISSING STRING TABLE ENTRY>",
+        "LocalizedString": "<MISSING STRING TABLE ENTRY>"
+      },
+      "Level": 3,
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Accumulator.I_Accumulator_C'",
+          "Value": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_CleanWater_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_CleanWater.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 3.0
+    }
+  }
+]

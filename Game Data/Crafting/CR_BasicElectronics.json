@@ -1,0 +1,61 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_BasicElectronics",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_BasicElectronics",
+    "Properties": {
+      "Icon": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_BasicElectronics_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_BasicElectronics_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "Electronics_name",
+        "SourceString": "Electronics",
+        "LocalizedString": "Electronics"
+      },
+      "DisplayDescription": {
+        "Namespace": "",
+        "Key": "252F0E464A9B7AEF47D25B9F2C82C3DC",
+        "SourceString": "<MISSING STRING TABLE ENTRY>",
+        "LocalizedString": "<MISSING STRING TABLE ENTRY>"
+      },
+      "BaseRecipe": {
+        "ObjectName": "CrItemRecipeData'CR_Electronics'",
+        "ObjectPath": "/Game/Chimera/Crafting/CR_Electronics.0"
+      },
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_WolframBar_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_WolframBar.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_WolframWire_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_WolframWire.1"
+          },
+          "Count": 2
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_Electronics_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_Electronics.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 3.0
+    }
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_TitaniumOrePure_LaserDrill",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/LaserDrill/CR_TitaniumOrePure_LaserDrill",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 750.0,
+          "Y": 500.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_TitaniumPure_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/RawMaterialsIcons/T_TitaniumPure_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "Namespace": "",
+        "Key": "E44CE6D747F82E59DA1188A07B65A61D",
+        "SourceString": "Titanium (Pure)",
+        "LocalizedString": "Titanium (Pure)"
+      },
+      "DisplayDescription": {
+        "Namespace": "",
+        "Key": "7C12E67F4EA11A79F423339E713A93DB",
+        "SourceString": "Ore",
+        "LocalizedString": "Ore"
+      },
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_TitaniumOre_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_TitaniumOre.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 0.5
+    }
+  }
+]

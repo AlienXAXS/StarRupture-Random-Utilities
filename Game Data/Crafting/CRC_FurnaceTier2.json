@@ -1,0 +1,41 @@
+[
+  {
+    "Type": "CrItemRecipeCollection",
+    "Name": "CRC_FurnaceTier2",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeCollection'",
+    "Package": "/Game/Chimera/Crafting/CRC_FurnaceTier2",
+    "Properties": {
+      "Recipes": [
+        {
+          "ObjectName": "CrItemRecipeData'CR_CalciumPowder_v2'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_CalciumPowder_v2.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_WolframPowder_v2'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_WolframPowder_v2.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Ceramics_v2'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Ceramics_v2.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Explosive_v2'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Explosive_v2.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Glass_v2'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Glass_v2.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_HeatResistantSheet_v2'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_HeatResistantSheet_v2.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_HardeningAgent_v2'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_HardeningAgent_v2.0"
+        }
+      ]
+    }
+  }
+]

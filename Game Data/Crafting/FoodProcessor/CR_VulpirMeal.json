@@ -1,0 +1,72 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_VulpirMeal",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/FoodProcessor/CR_VulpirMeal",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_PanzerhundMeat_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/Temp/CreaturesDrop/T_PanzerhundMeat_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+        "Key": "VulpirMeal_name",
+        "SourceString": "Processed Vulpir Meat",
+        "LocalizedString": "Processed Vulpir Meat"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+        "Key": "VulpirMeal_desc",
+        "SourceString": "Eat to gain effects. Gain 150 Calories.",
+        "LocalizedString": "Eat to gain effects. Gain 150 Calories."
+      },
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_VulpirLoot.I_VulpirLoot_C'",
+          "Value": 20
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_FoxEgg.I_FoxEgg_C'",
+          "Value": 10
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 1000
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_VulpirLoot_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_VulpirLoot.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_FoxEgg_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_FoxEgg.1"
+          },
+          "Count": 2
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_VulpirMeal_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_VulpirMeal.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 0.0
+    }
+  }
+]

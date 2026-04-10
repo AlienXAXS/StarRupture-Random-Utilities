@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "CrItemRecipeCollection",
+    "Name": "CRC_SulphurExtractor",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeCollection'",
+    "Package": "/Game/Chimera/Crafting/CRC_SulphurExtractor",
+    "Properties": {
+      "Recipes": [
+        {
+          "ObjectName": "CrItemRecipeData'CR_SulphurOre'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_SulphurOre.0"
+        }
+      ]
+    }
+  }
+]

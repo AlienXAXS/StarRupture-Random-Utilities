@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_HeavyAmmo",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_HeavyAmmo",
+    "Properties": {
+      "Icon": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_HeavyAmmoIcon'",
+          "ObjectPath": "/Game/Chimera/Weapons/AmmoTypes/T_HeavyAmmoIcon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "HeavyAmmo_name",
+        "SourceString": "Heavy Ammo",
+        "LocalizedString": "Heavy Ammo"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "HeavyAmmo_desc",
+        "SourceString": "Rounds used for sniper rifles and other heavy hitting weapons",
+        "LocalizedString": "Rounds used for sniper rifles and other heavy-hitting weapons."
+      },
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_BasicBuildingMaterial_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_BasicBuildingMaterial.1"
+          },
+          "Count": 24
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_TitaniumRod_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_TitaniumRod.1"
+          },
+          "Count": 6
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_HeavyAmmoItem_C'",
+          "ObjectPath": "/Game/Chimera/Weapons/AmmoTypes/I_HeavyAmmoItem.1"
+        },
+        "Count": 15
+      },
+      "BuildTime": 6.0
+    }
+  }
+]

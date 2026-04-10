@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "CrBuildingUpgradeRecipeData",
+    "Name": "BR_MechanicalDrillTier2",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrBuildingUpgradeRecipeData'",
+    "Package": "/Game/Chimera/BuildingUpgrades/BR_MechanicalDrillTier2",
+    "Properties": {
+      "BuildingReward": {
+        "ObjectName": "CrBuildingData'BD_MechanicalDrillTier2'",
+        "ObjectPath": "/Game/Chimera/Buildings/MechanicalDrillTier2/BD_MechanicalDrillTier2.0"
+      },
+      "Tasks": [
+        {
+          "ID": "84FE9312-46821C61-4DF20185-FDB19C80",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_BaseCore3_desc",
+            "SourceString": "Have a Base Core upgraded to Level 3 or higher",
+            "LocalizedString": "Have a Base Core upgraded to Level 3 or higher"
+          },
+          "Context": "OnHave",
+          "ContextValue": "BaseCore_3",
+          "ContextNumber": 1,
+          "bCheckConditionWhenInactive": true
+        },
+        {
+          "ID": "26991683-44DBBD7F-F63C489E-CAFF4937",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_MechanicalDrillV2_PureNodes_desc",
+            "SourceString": "Build Mechanical Drills on Pure resource deposits",
+            "LocalizedString": "Build Ore Excavators on Pure resource deposits"
+          },
+          "Context": "OnHavePureResourceHarvested",
+          "ContextValue": "MechanicalDrill",
+          "ContextNumber": 10,
+          "bCheckConditionWhenInactive": true
+        }
+      ],
+      "Recipe": {
+        "ObjectName": "CrItemRecipeData'CR_MechanicalDrillTier2'",
+        "ObjectPath": "/Game/Chimera/BuildingUpgrades/CR_MechanicalDrillTier2.0"
+      }
+    }
+  }
+]

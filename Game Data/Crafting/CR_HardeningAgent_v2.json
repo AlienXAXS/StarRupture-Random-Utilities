@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_HardeningAgent_v2",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_HardeningAgent_v2",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_HardeningAgent_RecV2_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/ItemRecipiesIcons/T_HardeningAgent_RecV2_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "HardeningAgent_name",
+        "SourceString": "Hardening Agent",
+        "LocalizedString": "Hardening Agent"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "bShowOutputItemIcon": false,
+      "Level": 6,
+      "BaseRecipe": {
+        "ObjectName": "CrItemRecipeData'CR_HardeningAgent'",
+        "ObjectPath": "/Game/Chimera/Crafting/CR_HardeningAgent.0"
+      },
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_SulphuricAcid_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_SulphuricAcid.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_SilicaSand_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_SilicaSand.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Syringe_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Syringe.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_PressurizedHelium_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_PressurizedHelium.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_HardeningAgent_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_HardeningAgent.1"
+        },
+        "Count": 5
+      },
+      "BuildTime": 4.0
+    }
+  }
+]

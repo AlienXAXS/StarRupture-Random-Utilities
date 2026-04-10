@@ -1,0 +1,177 @@
+[
+  {
+    "Type": "CrItemRecipeCollection",
+    "Name": "CRC_FoodProcessor",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeCollection'",
+    "Package": "/Game/Chimera/Crafting/CRC_FoodProcessor",
+    "Properties": {
+      "Recipes": [
+        {
+          "ObjectName": "CrItemRecipeData'CR_AntidoteFluid'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_AntidoteFluid.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_AntidoteGel'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_AntidoteGel.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_AntidoteShards'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_AntidoteShards.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_AquaBar'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_AquaBar.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_AquaBlockCapsules'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_AquaBlockCapsules.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_AquaChew'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_AquaChew.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_AquaFluid'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_AquaFluid.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_AquaGel'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_AquaGel.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_AquaStimShards'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_AquaStimShards.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_CalorieBar'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_CalorieBar.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_CalorieBlockCapsules'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_CalorieBlockCapsules.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_CalorieChew'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_CalorieChew.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_CalorieFluid'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_CalorieFluid.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_CalorieGel'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_CalorieGel.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_CalorieStimShards'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_CalorieStimShards.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_ClearCapsules'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_ClearCapsules.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_CorrosionResPlasm'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_CorrosionResPlasm.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_DrainResPlasm'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_DrainResPlasm.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_EnergyBoostCapsules'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_EnergyBoostCapsules.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_EnergyBoostChew'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_EnergyBoostChew.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_EnergyStimShards'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_EnergyStimShards.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Figler'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_Figler.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_HealthShards'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_HealthShards.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Hydrolite'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_Hydrolite.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_InfectionResPlasm'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_InfectionResPlasm.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_NutriBar'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_NutriBar.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_NutriBlockCapsules'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_NutriBlockCapsules.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_NutriChew'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_NutriChew.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_NutriFluid'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_NutriFluid.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_NutriGel'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_NutriGel.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_NutriStimShards'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_NutriStimShards.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Polisnack'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_Polisnack.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Purfins'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_Purfins.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_RegenCapsules'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_RegenCapsules.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_SerpentSticks'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_SerpentSticks.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_StarBites'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_StarBites.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Sulbon'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_Sulbon.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_TermoResPlasm'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_TermoResPlasm.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_VulpirMeal'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_VulpirMeal.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_ProcessedCoralionEgg'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_ProcessedCoralionEgg.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_RefinedVulpirEgg'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_RefinedVulpirEgg.0"
+        }
+      ]
+    }
+  }
+]

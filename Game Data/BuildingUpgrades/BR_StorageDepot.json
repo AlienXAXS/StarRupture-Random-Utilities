@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "CrBuildingUpgradeRecipeData",
+    "Name": "BR_StorageDepot",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrBuildingUpgradeRecipeData'",
+    "Package": "/Game/Chimera/BuildingUpgrades/BR_StorageDepot",
+    "Properties": {
+      "BuildingReward": {
+        "ObjectName": "CrBuildingData'BD_StorageDepot'",
+        "ObjectPath": "/Game/Chimera/Buildings/StorageDepot/BD_StorageDepot.0"
+      },
+      "Tasks": [
+        {
+          "ID": "B64B81F2-4810CF34-58D313B5-03FC7D1B",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_ExpandableStorage_HaveBuild_desc",
+            "SourceString": "Build Storage v.2",
+            "LocalizedString": "Build Storage v.2"
+          },
+          "Context": "OnHave",
+          "ContextValue": "RedistributorMK2",
+          "ContextNumber": 30,
+          "bCheckConditionWhenInactive": true
+        },
+        {
+          "ID": "8789CC72-47478BDB-4575CDA3-3311AD28",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_EnergyGenerated_desc",
+            "SourceString": "Total Power available in grid",
+            "LocalizedString": "Total Power available in grid"
+          },
+          "Context": "OnHave",
+          "ContextValue": "ElectricityProduced",
+          "ContextNumber": 15000,
+          "bCheckConditionWhenInactive": true
+        },
+        {
+          "ID": "45BA06D1-4CE3C92A-7BDDE2B9-E9D8E6B7",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_BaseCore1_desc",
+            "SourceString": "Upgrade a Base Core",
+            "LocalizedString": "Upgrade a Base Core"
+          },
+          "Context": "OnBaseCoreUpgrade",
+          "ContextValue": "None",
+          "ContextNumber": 0,
+          "bCheckConditionWhenInactive": true
+        }
+      ],
+      "Recipe": {
+        "ObjectName": "CrItemRecipeData'CR_StorageDepot'",
+        "ObjectPath": "/Game/Chimera/BuildingUpgrades/CR_StorageDepot.0"
+      }
+    }
+  }
+]

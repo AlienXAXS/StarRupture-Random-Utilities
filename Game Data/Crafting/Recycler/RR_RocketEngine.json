@@ -1,0 +1,41 @@
+[
+  {
+    "Type": "CrItemRecyclerRecipeData",
+    "Name": "RR_RocketEngine",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecyclerRecipeData'",
+    "Package": "/Game/Chimera/Crafting/Recycler/RR_RocketEngine",
+    "Properties": {
+      "InputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_RocketEngine_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_RocketEngine.1"
+        },
+        "Count": 1
+      },
+      "OutputResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_IntermediateBuildingMaterial_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_IntermediateBuildingMaterial.1"
+          },
+          "Count": 8
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_BasicBuildingMaterial_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_BasicBuildingMaterial.1"
+          },
+          "Count": 7
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_ElementaryBuildingMaterial_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_ElementaryBuildingMaterial.1"
+          },
+          "Count": 12
+        }
+      ]
+    }
+  }
+]

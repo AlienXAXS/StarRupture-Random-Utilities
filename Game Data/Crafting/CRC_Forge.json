@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "CrItemRecipeCollection",
+    "Name": "CRC_Forge",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeCollection'",
+    "Package": "/Game/Chimera/Crafting/CRC_Forge",
+    "Properties": {
+      "Recipes": [
+        {
+          "ObjectName": "CrItemRecipeData'CR_GoethiteIngot'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_GoethiteIngot.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_UberWolfram'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_UberWolfram.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_UberTitanium'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_UberTitanium.0"
+        }
+      ]
+    }
+  }
+]

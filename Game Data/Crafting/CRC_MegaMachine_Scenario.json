@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "CrItemRecipeCollection",
+    "Name": "CRC_MegaMachine_Scenario",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeCollection'",
+    "Package": "/Game/Chimera/Crafting/CRC_MegaMachine_Scenario",
+    "Properties": {
+      "Recipes": [
+        {
+          "ObjectName": "CrItemRecipeData'CR_MegaMachine_Scenario_Test_Victory_Item'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_MegaMachine_Scenario_Test_Victory_Item.0"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_PistolAmmo_ItemPrinter",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_PistolAmmo_ItemPrinter",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_SR_PistolAmmoBox_Icon'",
+          "ObjectPath": "/Game/Chimera/Weapons/AmmoTypes/T_SR_PistolAmmoBox_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "PistolAmmo_name",
+        "SourceString": "Pistol Ammo",
+        "LocalizedString": "Pistol Ammo"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "PistolAmmo_desc",
+        "SourceString": "Pistol ammunition used in handguns",
+        "LocalizedString": "Pistol ammunition used in handguns."
+      },
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_BasicBuildingMaterial_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_BasicBuildingMaterial.1"
+          },
+          "Count": 7
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_PistolAmmoItem_C'",
+          "ObjectPath": "/Game/Chimera/Weapons/AmmoTypes/I_PistolAmmoItem.1"
+        },
+        "Count": 10
+      },
+      "BuildTime": 0.0
+    }
+  }
+]

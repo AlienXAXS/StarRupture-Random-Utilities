@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_BasicBuildingMaterial_ItemPrinter",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_BasicBuildingMaterial_ItemPrinter",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_BasicBuildingMaterial'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_BasicBuildingMaterial.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "BasicBuildingMaterial_name",
+        "SourceString": "Basic Building Material",
+        "LocalizedString": "Basic Building Material"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "BasicBuildingMaterial_desc",
+        "SourceString": "Material used  by Building Tool to set up basic structures.",
+        "LocalizedString": "Material used by the Building Tool to set up basic structures."
+      },
+      "SendNotificationToDialogueSystem": true,
+      "bSkipDialoguesRulesCheck": true,
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_WolframOre_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_WolframOre.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_TitaniumOre_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_TitaniumOre.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_BasicBuildingMaterial_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_BasicBuildingMaterial.1"
+        },
+        "Count": 10
+      },
+      "BuildTime": 0.0
+    }
+  }
+]

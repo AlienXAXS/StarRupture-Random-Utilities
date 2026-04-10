@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_Scanner",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_Scanner",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Scanner_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_Scanner_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "Scanner_name",
+        "SourceString": "Scanner",
+        "LocalizedString": "Scanner"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "Level": 9,
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Lens.I_Lens_C'",
+          "Value": 400
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Generator.I_Generator_C'",
+          "Value": 100
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Gyroscope.I_Gyroscope_C'",
+          "Value": 400
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 3000
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Lens_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Lens.1"
+          },
+          "Count": 3
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Generator_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Generator.1"
+          },
+          "Count": 3
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Gyroscope_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Gyroscope.1"
+          },
+          "Count": 12
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_Scanner_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_Scanner.1"
+        },
+        "Count": 1
+      }
+    }
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_AquaGel",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/FoodProcessor/CR_AquaGel",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Aquagel_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_Aquagel_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Consumables.Consumables",
+        "Key": "AquaGel_name",
+        "SourceString": "Aqua Gel",
+        "LocalizedString": "Aqua Gel"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Consumables.Consumables",
+        "Key": "AquaGel_desc",
+        "SourceString": "Eat for effects. Gain 75 Hydration.",
+        "LocalizedString": "Eat to gain effect. Gain 75 Hydration."
+      },
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Hydrobulb.I_Hydrobulb_C'",
+          "Value": 70
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Grubbler.I_Grubbler_C'",
+          "Value": 25
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 400
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Hydrobulb_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Hydrobulb.1"
+          },
+          "Count": 6
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Grubbler_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Grubbler.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_AquaGel_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_AquaGel.1"
+        },
+        "Count": 2
+      },
+      "BuildTime": 0.0
+    }
+  }
+]

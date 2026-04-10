@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_Polisnack",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/FoodProcessor/CR_Polisnack",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Polisnack_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_Polisnack_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Consumables.Consumables",
+        "Key": "Polisnack_name",
+        "SourceString": "Polisnack",
+        "LocalizedString": "Polisnack"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Consumables.Consumables",
+        "Key": "Polisnack_desc",
+        "SourceString": "Eat for effects. Gain 35 Calories.",
+        "LocalizedString": "Eat to gain effect. Gain 35 Calories."
+      },
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Polifruit_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Polifruit.1"
+          },
+          "Count": 3
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_Polisnack_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_Polisnack.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 0.0
+    }
+  }
+]

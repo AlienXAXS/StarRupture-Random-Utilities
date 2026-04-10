@@ -1,0 +1,42 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_CalciumOrePure_LaserDrill",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/LaserDrill/CR_CalciumOrePure_LaserDrill",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 750.0,
+          "Y": 500.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_CalciumPure_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/RawMaterialsIcons/T_CalciumPure_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "Namespace": "",
+        "Key": "EF82C45D419CCDB2EC985696E2E3FDA9",
+        "SourceString": "Calcium (Pure)",
+        "LocalizedString": "Calcium (Pure)"
+      },
+      "DisplayDescription": {
+        "Namespace": "",
+        "Key": "0ADC13CA4BB406E4CBF56DBECD3BF092",
+        "SourceString": "Ore",
+        "LocalizedString": "Ore"
+      },
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_CalciumOre_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_CalciumOre.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 0.5
+    }
+  }
+]

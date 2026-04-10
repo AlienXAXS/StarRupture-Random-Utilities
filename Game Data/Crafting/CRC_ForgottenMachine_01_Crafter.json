@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "CrItemRecipeCollection",
+    "Name": "CRC_ForgottenMachine_01_Crafter",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeCollection'",
+    "Package": "/Game/Chimera/Crafting/CRC_ForgottenMachine_01_Crafter",
+    "Properties": {
+      "Recipes": [
+        {
+          "ObjectName": "CrItemRecipeData'CR_MECSPart'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_MECSPart.0"
+        }
+      ]
+    }
+  }
+]

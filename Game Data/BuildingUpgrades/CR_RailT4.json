@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_RailT4",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/BuildingUpgrades/CR_RailT4",
+    "Properties": {
+      "Icon": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        }
+      },
+      "Level": 0,
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_QuartzOre.I_QuartzOre_C'",
+          "Value": 120
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_FireWaveOre.I_FireWaveOre_C'",
+          "Value": 50
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 10000
+        }
+      ],
+      "BuildTime": 0.0
+    }
+  }
+]

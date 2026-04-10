@@ -1,0 +1,90 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_IonStabilizer",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_IonStabilizer",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_IonStabilizer_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_IonStabilizer_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "IonStabilizer_name",
+        "SourceString": "Ion Stabilizer",
+        "LocalizedString": "Ion Stabilizer"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "Level": 10,
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_OnboardInstruments.I_OnboardInstruments_C'",
+          "Value": 200
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_LiquidHelium.I_LiquidHelium_C'",
+          "Value": 400
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Grenade.I_Grenade_C'",
+          "Value": 300
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 4000
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Epoxy_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Epoxy.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_LiquidHelium_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_LiquidHelium.1"
+          },
+          "Count": 3
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_OnboardInstruments_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_OnboardInstruments.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Grenade_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Grenade.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_IonStabilizer_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_IonStabilizer.1"
+        },
+        "Count": 1
+      }
+    }
+  }
+]

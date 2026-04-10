@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "CrItemRecipeCollection",
+    "Name": "CRC_Assembler",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeCollection'",
+    "Package": "/Game/Chimera/Crafting/CRC_Assembler",
+    "Properties": {
+      "Recipes": [
+        {
+          "ObjectName": "CrItemRecipeData'CR_Accumulator'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Accumulator.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Generator'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Generator.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Electromagnet'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Electromagnet.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_PressureTank'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_PressureTank.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Resonator'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Resonator.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Condenser'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Condenser.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_LaserEmitter'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_LaserEmitter.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Scanner'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Scanner.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Uberfilament'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Uberfilament.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_OnboardInstruments'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_OnboardInstruments.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Grenade'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Grenade.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_PseudorubberInsulator'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_PseudorubberInsulator.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_PlasticDust'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_PlasticDust.0"
+        }
+      ]
+    }
+  }
+]

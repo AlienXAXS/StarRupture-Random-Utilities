@@ -1,0 +1,85 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_Superconductor_v2",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_Superconductor_v2",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Superconductor_RecV2_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/ItemRecipiesIcons/T_Superconductor_RecV2_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "Superconductor_name",
+        "SourceString": "Superconductor",
+        "LocalizedString": "Superconductor"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "bShowOutputItemIcon": false,
+      "Level": 8,
+      "BaseRecipe": {
+        "ObjectName": "CrItemRecipeData'CR_Superconductor'",
+        "ObjectPath": "/Game/Chimera/Crafting/CR_Superconductor.0"
+      },
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_SyntheticResin_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_SyntheticResin.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Electromagnet_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Electromagnet.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Supermagnet_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Supermagnet.1"
+          },
+          "Count": 3
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Aerogel_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Aerogel.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_HeatShield_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_HeatShield.1"
+          },
+          "Count": 2
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_Superconductor_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_Superconductor.1"
+        },
+        "Count": 2
+      },
+      "BuildTime": 5.0
+    }
+  }
+]

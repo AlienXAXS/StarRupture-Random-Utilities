@@ -1,0 +1,77 @@
+[
+  {
+    "Type": "CrItemRecipeCollection",
+    "Name": "CRC_Hammer",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeCollection'",
+    "Package": "/Game/Chimera/Crafting/CRC_Hammer",
+    "Properties": {
+      "Recipes": [
+        {
+          "ObjectName": "CrItemRecipeData'CR_IntermediateBuildingMaterial'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_IntermediateBuildingMaterial.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_StandardAmmo'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_StandardAmmo.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_ShotgunAmmo'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_ShotgunAmmo.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_HeavyAmmo'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_HeavyAmmo.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Impeller'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Impeller.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Nozzle'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Nozzle.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Battery'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Battery.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Turbine'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Turbine.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Valve'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Valve.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_ElectromagneticCoil'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_ElectromagneticCoil.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Pump'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Pump.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_ReinforcedFrame'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_ReinforcedFrame.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_ReinforcedHousing'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_ReinforcedHousing.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_GoethiteLattice'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_GoethiteLattice.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_HeatShield'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_HeatShield.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_IonStabilizer'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_IonStabilizer.0"
+        }
+      ]
+    }
+  }
+]

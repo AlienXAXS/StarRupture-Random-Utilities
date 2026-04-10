@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_WolframBar",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_WolframBar",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_WolframBar_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_WolframBar_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "WolframBar_name",
+        "SourceString": "Wolfram Bar",
+        "LocalizedString": "Wolfram Bar"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_WolframOre_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_WolframOre.1"
+          },
+          "Count": 2
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_WolframBar_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_WolframBar.1"
+        },
+        "Count": 2
+      },
+      "BuildTime": 2.0
+    }
+  }
+]

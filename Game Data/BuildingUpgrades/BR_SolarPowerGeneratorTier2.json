@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "CrBuildingUpgradeRecipeData",
+    "Name": "BR_SolarPowerGeneratorTier2",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrBuildingUpgradeRecipeData'",
+    "Package": "/Game/Chimera/BuildingUpgrades/BR_SolarPowerGeneratorTier2",
+    "Properties": {
+      "BuildingReward": {
+        "ObjectName": "CrBuildingData'BD_SolarPowerGeneratorTier2'",
+        "ObjectPath": "/Game/Chimera/Buildings/SolarPowerGeneratorTier2/BD_SolarPowerGeneratorTier2.0"
+      },
+      "Tasks": [
+        {
+          "ID": "3486EFAD-41CC159D-F8B59194-C1EBB937",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_EnergyConsumed_desc",
+            "SourceString": "Total Power consumed by buildings",
+            "LocalizedString": "Total Power consumed by buildings"
+          },
+          "Context": "OnHave",
+          "ContextValue": "ElectricityConsumed",
+          "ContextNumber": 500,
+          "bCheckConditionWhenInactive": true
+        }
+      ],
+      "Recipe": {
+        "ObjectName": "CrItemRecipeData'CR_SolarPowerGeneratorTier2'",
+        "ObjectPath": "/Game/Chimera/BuildingUpgrades/CR_SolarPowerGeneratorTier2.0"
+      }
+    }
+  }
+]

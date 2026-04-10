@@ -1,0 +1,61 @@
+[
+  {
+    "Type": "CrItemRecipeCollection",
+    "Name": "CRC_Furnace",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeCollection'",
+    "Package": "/Game/Chimera/Crafting/CRC_Furnace",
+    "Properties": {
+      "Recipes": [
+        {
+          "ObjectName": "CrItemRecipeData'CR_WolframPowder'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_WolframPowder.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_CalciumPowder'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_CalciumPowder.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Ceramics'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Ceramics.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_TitaniumHousing'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_TitaniumHousing.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Glass'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Glass.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Coil'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Coil.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_HeatResistantSheet'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_HeatResistantSheet.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_SilicaSand'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_SilicaSand.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Electronics'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Electronics.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Explosive'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Explosive.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_HardeningAgent'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_HardeningAgent.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Supermagnet'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Supermagnet.0"
+        }
+      ]
+    }
+  }
+]

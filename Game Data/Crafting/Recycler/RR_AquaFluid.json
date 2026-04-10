@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "CrItemRecyclerRecipeData",
+    "Name": "RR_AquaFluid",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecyclerRecipeData'",
+    "Package": "/Game/Chimera/Crafting/Recycler/RR_AquaFluid",
+    "Properties": {
+      "InputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_AquaFluid_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_AquaFluid.1"
+        },
+        "Count": 1
+      },
+      "OutputResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_StarTears_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_StarTears.1"
+          },
+          "Count": 1
+        }
+      ]
+    }
+  }
+]

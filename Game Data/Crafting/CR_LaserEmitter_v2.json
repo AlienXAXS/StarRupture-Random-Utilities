@@ -1,0 +1,85 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_LaserEmitter_v2",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_LaserEmitter_v2",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_LaserEmitter_RecV2_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/ItemRecipiesIcons/T_LaserEmitter_RecV2_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "LaserEmitter_name",
+        "SourceString": "Laser Emitter",
+        "LocalizedString": "Laser Emitter"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "bShowOutputItemIcon": false,
+      "Level": 9,
+      "BaseRecipe": {
+        "ObjectName": "CrItemRecipeData'CR_LaserEmitter'",
+        "ObjectPath": "/Game/Chimera/Crafting/CR_LaserEmitter.0"
+      },
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Lens_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Lens.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Resonator_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Resonator.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_ElectromagneticCoil_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_ElectromagneticCoil.1"
+          },
+          "Count": 3
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Grenade_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Grenade.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Epoxy_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Epoxy.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_LaserEmitter_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_LaserEmitter.1"
+        },
+        "Count": 2
+      },
+      "BuildTime": 6.0
+    }
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "CrBuildingUpgradeRecipeData",
+    "Name": "BR_ExporterTier2",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrBuildingUpgradeRecipeData'",
+    "Package": "/Game/Chimera/BuildingUpgrades/BR_ExporterTier2",
+    "Properties": {
+      "BuildingReward": {
+        "ObjectName": "CrBuildingData'BD_ExporterTier2'",
+        "ObjectPath": "/Game/Chimera/Buildings/ExporterTier2/BD_ExporterTier2.0"
+      },
+      "Tasks": [
+        {
+          "ID": "920FA2F3-4FA91639-9DF1F1B9-B66C92C8",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_OCLV2_HaveBuild_desc",
+            "SourceString": "Build Orbital Cargo Launchers",
+            "LocalizedString": "Build Orbital Cargo Launchers"
+          },
+          "Context": "OnHave",
+          "ContextValue": "BasicExporter",
+          "ContextNumber": 20,
+          "bCheckConditionWhenInactive": true
+        },
+        {
+          "ID": "84931D04-48B68027-515777BD-04300F14",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_EnergyConsumed_desc",
+            "SourceString": "Total Power consumed by buildings",
+            "LocalizedString": "Total Power consumed by buildings"
+          },
+          "Context": "OnHave",
+          "ContextValue": "ElectricityConsumed",
+          "ContextNumber": 450,
+          "bCheckConditionWhenInactive": true
+        }
+      ],
+      "Recipe": {
+        "ObjectName": "CrItemRecipeData'CR_ExporterTier2'",
+        "ObjectPath": "/Game/Chimera/BuildingUpgrades/CR_ExporterTier2.0"
+      }
+    }
+  }
+]

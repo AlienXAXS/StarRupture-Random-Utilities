@@ -1,0 +1,72 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_AntidoteShards",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/FoodProcessor/CR_AntidoteShards",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_AntidoteShards_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_AntidoteShards_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Consumables.Consumables",
+        "Key": "AntidoteShards_name",
+        "SourceString": "Antidote Shards",
+        "LocalizedString": "Antidote Shards"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Consumables.Consumables",
+        "Key": "AntidoteShards_desc_long",
+        "SourceString": "Eat for effects. Heal 60 HP. Remove 40 Toxicity. Remove all positive effects.",
+        "LocalizedString": "Eat for effects. Heal 60 HP. Remove 40 Toxicity. Remove all positive effects."
+      },
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Purplant.I_Purplant_C'",
+          "Value": 70
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Sulheart.I_Sulheart_C'",
+          "Value": 40
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 200
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Purplant_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Purplant.1"
+          },
+          "Count": 3
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Sulheart_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Sulheart.1"
+          },
+          "Count": 2
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_AntidoteShards_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_AntidoteShards.1"
+        },
+        "Count": 2
+      },
+      "BuildTime": 0.0
+    }
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_Scanner_v2",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_Scanner_v2",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Scanner_RecV2_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/ItemRecipiesIcons/T_Scanner_RecV2_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "Scanner_name",
+        "SourceString": "Scanner",
+        "LocalizedString": "Scanner"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "bShowOutputItemIcon": false,
+      "Level": 9,
+      "BaseRecipe": {
+        "ObjectName": "CrItemRecipeData'CR_Scanner'",
+        "ObjectPath": "/Game/Chimera/Crafting/CR_Scanner.0"
+      },
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Lens_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Lens.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Generator_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Generator.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Gyroscope_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Gyroscope.1"
+          },
+          "Count": 6
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Uberfilament_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Uberfilament.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_PseudorubberInsulator_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_PseudorubberInsulator.1"
+          },
+          "Count": 3
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_Scanner_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_Scanner.1"
+        },
+        "Count": 2
+      }
+    }
+  }
+]

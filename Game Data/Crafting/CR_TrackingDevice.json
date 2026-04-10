@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_TrackingDevice",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_TrackingDevice",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_TrackingDevice_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_TrackingDevice_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "TrackingDevice_name",
+        "SourceString": "Tracking Device",
+        "LocalizedString": "Tracking Device"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "Level": 13,
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_CarbonSonar_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_CarbonSonar.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_QuantumTranqualizer_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_QuantumTranqualizer.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Lens_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Lens.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_OnboardInstruments_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_OnboardInstruments.1"
+          },
+          "Count": 3
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Scanner_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Scanner.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_TrackingDevice_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_TrackingDevice.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 15.0
+    }
+  }
+]

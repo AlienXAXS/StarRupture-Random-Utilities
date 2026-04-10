@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_Resonator",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_Resonator",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Resonator_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_Resonator_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "Resonator_name",
+        "SourceString": "Resonator",
+        "LocalizedString": "Resonator"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "Level": 8,
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Accumulator.I_Accumulator_C'",
+          "Value": 200
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Generator.I_Generator_C'",
+          "Value": 100
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_LiquidHelium.I_LiquidHelium_C'",
+          "Value": 400
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 2000
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Accumulator_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Accumulator.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Generator_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Generator.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_LiquidHelium_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_LiquidHelium.1"
+          },
+          "Count": 2
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_Resonator_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_Resonator.1"
+        },
+        "Count": 1
+      }
+    }
+  }
+]

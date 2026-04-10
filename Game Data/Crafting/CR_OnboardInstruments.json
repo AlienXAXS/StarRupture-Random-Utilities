@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_OnboardInstruments",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_OnboardInstruments",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_OnboardInstruments_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_OnboardInstruments_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "OnboardInstruments_name",
+        "SourceString": "Onboard Instruments",
+        "LocalizedString": "Onboard Instruments"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "Level": 11,
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Electronics.I_Electronics_C'",
+          "Value": 600
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Gyroscope.I_Gyroscope_C'",
+          "Value": 800
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_ReinforcedHousing.I_ReinforcedHousing_C'",
+          "Value": 1000
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 2000
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Electronics_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Electronics.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Gyroscope_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Gyroscope.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_ReinforcedHousing_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_ReinforcedHousing.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_OnboardInstruments_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_OnboardInstruments.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 5.0
+    }
+  }
+]

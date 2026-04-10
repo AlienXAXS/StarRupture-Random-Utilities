@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_Helium",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_Helium",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 750.0,
+          "Y": 500.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Helium-3_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/RawMaterialsIcons/T_Helium-3_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "Helium3_name",
+        "SourceString": "Helium-3",
+        "LocalizedString": "Helium-3"
+      },
+      "DisplayDescription": {
+        "Namespace": "",
+        "Key": "2795A6E54560B31F0573D593DC4DE6E7",
+        "SourceString": "Gas",
+        "LocalizedString": "Gas"
+      },
+      "Level": 3,
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_HeliumOre_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_HeliumOre.1"
+        },
+        "Count": 8
+      },
+      "BuildTime": 2.0
+    }
+  }
+]

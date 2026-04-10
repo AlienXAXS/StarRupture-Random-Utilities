@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_Storage",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/BuildingUpgrades/CR_Storage",
+    "Properties": {
+      "Icon": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        }
+      },
+      "Level": 0,
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_QuartzOre.I_QuartzOre_C'",
+          "Value": 60
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_FireWaveOre.I_FireWaveOre_C'",
+          "Value": 25
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 2000
+        }
+      ],
+      "BuildTime": 0.0
+    }
+  }
+]

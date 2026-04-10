@@ -1,0 +1,42 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_TitaniumOreImpure_MechanicalDrill",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/MechanicalDrill/CR_TitaniumOreImpure_MechanicalDrill",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 750.0,
+          "Y": 500.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_TitaniumImpure_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/RawMaterialsIcons/T_TitaniumImpure_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "TitaniumOreImpure_name",
+        "SourceString": "Titanium Ore (Impure)",
+        "LocalizedString": "Titanium Ore (Impure)"
+      },
+      "DisplayDescription": {
+        "Namespace": "",
+        "Key": "8BC14D264CD251EBB69821BF80316AE7",
+        "SourceString": "Ore",
+        "LocalizedString": "Ore"
+      },
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_TitaniumOre_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_TitaniumOre.1"
+        },
+        "Count": 2
+      },
+      "BuildTime": 2.0
+    }
+  }
+]

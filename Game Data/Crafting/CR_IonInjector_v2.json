@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_IonInjector_v2",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_IonInjector_v2",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_IonInjector_RecV2_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/ItemRecipiesIcons/T_IonInjector_RecV2_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "IonInjector_name",
+        "SourceString": "Ion Injector",
+        "LocalizedString": "Ion Injector"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "bShowOutputItemIcon": false,
+      "Level": 9,
+      "BaseRecipe": {
+        "ObjectName": "CrItemRecipeData'CR_IonInjector'",
+        "ObjectPath": "/Game/Chimera/Crafting/CR_IonInjector.0"
+      },
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Syringe_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Syringe.1"
+          },
+          "Count": 4
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Electromagnet_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Electromagnet.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_PressureTank_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_PressureTank.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_GoethiteLattice_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_GoethiteLattice.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_UberOil_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_UberOil.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_IonInjector_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_IonInjector.1"
+        },
+        "Count": 2
+      }
+    }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "CrItemRecipeCollection",
+    "Name": "CRC_Refinery",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeCollection'",
+    "Package": "/Game/Chimera/Crafting/CRC_Refinery",
+    "Properties": {
+      "Recipes": [
+        {
+          "ObjectName": "CrItemRecipeData'CR_SulphuricAcid'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_SulphuricAcid.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_PressurizedHelium'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_PressurizedHelium.0"
+        }
+      ]
+    }
+  }
+]

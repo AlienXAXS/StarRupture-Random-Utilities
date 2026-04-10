@@ -1,0 +1,72 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_AntidoteGel",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/FoodProcessor/CR_AntidoteGel",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_AntidoteGel_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_AntidoteGel_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Consumables.Consumables",
+        "Key": "AntidoteGel_name",
+        "SourceString": "Antidote Gel",
+        "LocalizedString": "Antidote Gel"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Consumables.Consumables",
+        "Key": "AntidoteGel_desc_long",
+        "SourceString": "Eat for effects. Remove 100 Toxicity. Remove all positive effects.",
+        "LocalizedString": "Eat for effects. Remove 100 Toxicity. Remove all positive effects."
+      },
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Purplant.I_Purplant_C'",
+          "Value": 50
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Grubbler.I_Grubbler_C'",
+          "Value": 20
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 150
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Purplant_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Purplant.1"
+          },
+          "Count": 3
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Grubbler_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Grubbler.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_AntidoteGel_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_AntidoteGel.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 0.0
+    }
+  }
+]

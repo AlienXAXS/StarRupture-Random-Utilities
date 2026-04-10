@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_BasicFuel",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_BasicFuel",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_BasicFuel_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_BasicFuel_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "BasicFuel_name",
+        "SourceString": "Basic Fuel",
+        "LocalizedString": "Basic Fuel"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterial_desc",
+        "SourceString": "Crafting Material. Used in various recipes.",
+        "LocalizedString": "Crafting Material. Used in various recipes."
+      },
+      "Level": 9,
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_WolframPowder.I_WolframPowder_C'",
+          "Value": 800
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_GoethitePowder.I_GoethitePowder_C'",
+          "Value": 600
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_LiquidHelium.I_LiquidHelium_C'",
+          "Value": 300
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 4000
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_WolframPowder_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_WolframPowder.1"
+          },
+          "Count": 4
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_GoethitePowder_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_GoethitePowder.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_LiquidHelium_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_LiquidHelium.1"
+          },
+          "Count": 4
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_BasicFuel_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_BasicFuel.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 6.0
+    }
+  }
+]

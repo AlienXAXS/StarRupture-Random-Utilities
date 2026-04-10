@@ -1,0 +1,61 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_ProcessedCoralionEgg",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/FoodProcessor/CR_ProcessedCoralionEgg",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Consumable_CrabEgg_Refined_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_Consumable_CrabEgg_Refined_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+        "Key": "CorallionEggMeal_name_alt2",
+        "SourceString": "Processed Coralion Egg",
+        "LocalizedString": "Processed Coralion Egg"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+        "Key": "CorallionEggMeal_desc_alt2",
+        "SourceString": "Eat to gain effects. Increases Energy limit by 100%. Lasts 5 min.",
+        "LocalizedString": "Eat to gain effects. Increases Energy limit by 100%. Lasts 5 min."
+      },
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_CrabEgg.I_CrabEgg_C'",
+          "Value": 20
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 1000
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_CrabEgg_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_CrabEgg.1"
+          },
+          "Count": 5
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_ProcessedCoralionEgg_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_ProcessedCoralionEgg.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 0.0
+    }
+  }
+]

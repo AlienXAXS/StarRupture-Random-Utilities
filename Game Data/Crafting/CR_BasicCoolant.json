@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_BasicCoolant",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_BasicCoolant",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'WhiteSquareTexture'",
+          "ObjectPath": "/Engine/EngineResources/WhiteSquareTexture.0"
+        }
+      },
+      "DisplayText": {
+        "Namespace": "",
+        "Key": "B12119A74B669816DFDEAF845A1D5C8F",
+        "SourceString": "<MISSING STRING TABLE ENTRY>",
+        "LocalizedString": "<MISSING STRING TABLE ENTRY>"
+      },
+      "DisplayDescription": {
+        "Namespace": "",
+        "Key": "0E12AD7C4F49C777DEC324A49F163410",
+        "SourceString": "<MISSING STRING TABLE ENTRY>",
+        "LocalizedString": "<MISSING STRING TABLE ENTRY>"
+      },
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_CleanWater_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_CleanWater.1"
+          },
+          "Count": 5
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_HeliumOre_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_HeliumOre.1"
+          },
+          "Count": 2
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_CoolantBasic_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_CoolantBasic.1"
+        },
+        "Count": 5
+      }
+    }
+  }
+]

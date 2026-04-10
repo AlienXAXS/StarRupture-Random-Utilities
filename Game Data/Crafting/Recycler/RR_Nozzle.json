@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "CrItemRecyclerRecipeData",
+    "Name": "RR_Nozzle",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecyclerRecipeData'",
+    "Package": "/Game/Chimera/Crafting/Recycler/RR_Nozzle",
+    "Properties": {
+      "InputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_Nozzle_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_Nozzle.1"
+        },
+        "Count": 1
+      },
+      "OutputResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_BasicBuildingMaterial_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_BasicBuildingMaterial.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_ElementaryBuildingMaterial_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_ElementaryBuildingMaterial.1"
+          },
+          "Count": 39
+        }
+      ]
+    }
+  }
+]

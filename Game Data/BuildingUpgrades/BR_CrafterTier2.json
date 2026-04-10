@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "CrBuildingUpgradeRecipeData",
+    "Name": "BR_CrafterTier2",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrBuildingUpgradeRecipeData'",
+    "Package": "/Game/Chimera/BuildingUpgrades/BR_CrafterTier2",
+    "Properties": {
+      "BuildingReward": {
+        "ObjectName": "CrBuildingData'BD_CrafterTier2'",
+        "ObjectPath": "/Game/Chimera/Buildings/CrafterTier2/BD_CrafterTier2.0"
+      },
+      "Tasks": [
+        {
+          "ID": "B609B98B-420597ED-A9975998-46113A5A",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_FabricatorV2_HaveBuild_desc",
+            "SourceString": "Build Fabricators",
+            "LocalizedString": "Build Fabricators"
+          },
+          "Context": "OnHave",
+          "ContextValue": "Crafter",
+          "ContextNumber": 25,
+          "bCheckConditionWhenInactive": true
+        },
+        {
+          "ID": "718FBB8D-4C9BB348-3B7CD9B8-74215683",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_Fabricator_desc",
+            "SourceString": "Unlock all Fabricator recipes",
+            "LocalizedString": "Unlock all Fabricator recipes"
+          },
+          "Context": "OnAllRecipesUnlocked",
+          "ContextValue": "Crafter",
+          "ContextNumber": 1,
+          "bCheckConditionWhenInactive": true
+        }
+      ],
+      "Recipe": {
+        "ObjectName": "CrItemRecipeData'CR_CrafterTier2'",
+        "ObjectPath": "/Game/Chimera/BuildingUpgrades/CR_CrafterTier2.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "CrBuildingUpgradeRecipeData",
+    "Name": "BR_Storage",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrBuildingUpgradeRecipeData'",
+    "Package": "/Game/Chimera/BuildingUpgrades/BR_Storage",
+    "Properties": {
+      "BuildingReward": {
+        "ObjectName": "CrBuildingData'BD_Storage'",
+        "ObjectPath": "/Game/Chimera/Buildings/Storage/BD_Storage.0"
+      },
+      "Tasks": [
+        {
+          "ID": "EB865358-43841894-BB553C9A-F132F159",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_StorageV2_HaveBuild_desc",
+            "SourceString": "Build Storage v.1",
+            "LocalizedString": "Build Storage v.1"
+          },
+          "Context": "OnHave",
+          "ContextValue": "ResourceRedistributor",
+          "ContextNumber": 20,
+          "bCheckConditionWhenInactive": true
+        }
+      ],
+      "Recipe": {
+        "ObjectName": "CrItemRecipeData'CR_Storage'",
+        "ObjectPath": "/Game/Chimera/BuildingUpgrades/CR_Storage.0"
+      }
+    }
+  }
+]

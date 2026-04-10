@@ -1,0 +1,73 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_PressurizedHelium",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_PressurizedHelium",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_PressurizedHelium_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_PressurizedHelium_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "PressurizedHelium_name",
+        "SourceString": "Pressurized Helium",
+        "LocalizedString": "Pressurized Helium"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterial_desc",
+        "SourceString": "Crafting Material. Used in various recipes.",
+        "LocalizedString": "Crafting Material. Used in various recipes."
+      },
+      "Level": 6,
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_HeliumOre.I_HeliumOre_C'",
+          "Value": 2000
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_SulphurOre.I_SulphurOre_C'",
+          "Value": 3000
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 1000
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_HeliumOre_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_HeliumOre.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_SulphurOre_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_SulphurOre.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_PressurizedHelium_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_PressurizedHelium.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 2.0
+    }
+  }
+]

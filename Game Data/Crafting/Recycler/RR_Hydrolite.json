@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "CrItemRecyclerRecipeData",
+    "Name": "RR_Hydrolite",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecyclerRecipeData'",
+    "Package": "/Game/Chimera/Crafting/Recycler/RR_Hydrolite",
+    "Properties": {
+      "InputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_Hydrolite_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_Hydrolite.1"
+        },
+        "Count": 1
+      },
+      "OutputResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Hydrobulb_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Hydrobulb.1"
+          },
+          "Count": 2
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_Electromagnet",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_Electromagnet",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Electromagnet_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_Electromagnet_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "Electromagnet_name",
+        "SourceString": "Electromagnet",
+        "LocalizedString": "Electromagnet"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "Level": 9,
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_ElectromagneticCoil.I_ElectromagneticCoil_C'",
+          "Value": 200
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_SyntheticResin.I_SyntheticResin_C'",
+          "Value": 400
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Accumulator.I_Accumulator_C'",
+          "Value": 200
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 2000
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_ElectromagneticCoil_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_ElectromagneticCoil.1"
+          },
+          "Count": 3
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_SyntheticResin_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_SyntheticResin.1"
+          },
+          "Count": 3
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Accumulator_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Accumulator.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_Electromagnet_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_Electromagnet.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 5.0
+    }
+  }
+]

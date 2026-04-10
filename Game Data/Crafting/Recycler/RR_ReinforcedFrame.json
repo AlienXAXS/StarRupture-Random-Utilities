@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "CrItemRecyclerRecipeData",
+    "Name": "RR_ReinforcedFrame",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecyclerRecipeData'",
+    "Package": "/Game/Chimera/Crafting/Recycler/RR_ReinforcedFrame",
+    "Properties": {
+      "InputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_ReinforcedFrame_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_ReinforcedFrame.1"
+        },
+        "Count": 1
+      },
+      "OutputResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_BasicBuildingMaterial_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_BasicBuildingMaterial.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_ElementaryBuildingMaterial_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_ElementaryBuildingMaterial.1"
+          },
+          "Count": 28
+        }
+      ]
+    }
+  }
+]

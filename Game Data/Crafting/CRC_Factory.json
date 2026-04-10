@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "CrItemRecipeCollection",
+    "Name": "CRC_Factory",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeCollection'",
+    "Package": "/Game/Chimera/Crafting/CRC_Factory",
+    "Properties": {
+      "Recipes": [
+        {
+          "ObjectName": "CrItemRecipeData'CR_Scafolding'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Scafolding.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_QuantumTranqualizer'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_QuantumTranqualizer.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Anti-RadiationCovers'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Anti-RadiationCovers.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Nanosyringe'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Nanosyringe.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Airlock'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Airlock.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_CarbonSonar'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_CarbonSonar.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_RTSC'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_RTSC.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_RNAStabilizer'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_RNAStabilizer.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_IonThrusters'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_IonThrusters.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_RocketFuel'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_RocketFuel.0"
+        }
+      ]
+    }
+  }
+]

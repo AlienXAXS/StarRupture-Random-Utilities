@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_ReinforcedFrame",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_ReinforcedFrame",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ReinforcedFrame_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_ReinforcedFrame_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "ReinforcedFrame_name",
+        "SourceString": "Reinforced Frame",
+        "LocalizedString": "Reinforced Frame"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterial_desc",
+        "SourceString": "Crafting Material. Used in various recipes.",
+        "LocalizedString": "Crafting Material. Used in various recipes."
+      },
+      "Level": 9,
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_UberTitanium.I_UberTitanium_C'",
+          "Value": 500
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Tube.I_Tube_C'",
+          "Value": 600
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_TitaniumBeam.I_TitaniumBeam_C'",
+          "Value": 800
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 2000
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Tube_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Tube.1"
+          },
+          "Count": 4
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_UberTitanium_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_UberTitanium.1"
+          },
+          "Count": 4
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_TitaniumBeam_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_TitaniumBeam.1"
+          },
+          "Count": 2
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_ReinforcedFrame_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_ReinforcedFrame.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 5.0
+    }
+  }
+]

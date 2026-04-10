@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "CrItemRecipeCollection",
+    "Name": "CRC_Extractor",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeCollection'",
+    "Package": "/Game/Chimera/Crafting/CRC_Extractor",
+    "Properties": {
+      "Recipes": [
+        {
+          "ObjectName": "CrItemRecipeData'CR_Helium'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Helium.0"
+        }
+      ]
+    }
+  }
+]

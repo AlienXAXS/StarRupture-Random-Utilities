@@ -1,0 +1,72 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_CalorieBar",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/FoodProcessor/CR_CalorieBar",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Caloriebar_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_Caloriebar_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Consumables.Consumables",
+        "Key": "CalorieBar_name",
+        "SourceString": "Calorie Bar",
+        "LocalizedString": "Calorie Bar"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Consumables.Consumables",
+        "Key": "CalorieBar_desc",
+        "SourceString": "Eat for effects. Gain 90 Calories.",
+        "LocalizedString": "Eat to gain effect. Gain 90 Calories."
+      },
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Polifruit.I_Polifruit_C'",
+          "Value": 60
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_SerpentRoot.I_SerpentRoot_C'",
+          "Value": 30
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 200
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Polifruit_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Polifruit.1"
+          },
+          "Count": 4
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_SerpentRoot_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_SerpentRoot.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_CalorieBar_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_CalorieBar.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 0.0
+    }
+  }
+]

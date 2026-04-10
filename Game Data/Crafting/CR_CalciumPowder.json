@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_CalciumPowder",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_CalciumPowder",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_CalciumPowder_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_CalciumPowder_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CalciumPowder_name",
+        "SourceString": "Calcium Powder",
+        "LocalizedString": "Calcium Powder"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "Level": 2,
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_CalciumBlock.I_CalciumBlock_C'",
+          "Value": 600
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_CalciumBlock_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_CalciumBlock.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_CalciumPowder_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_CalciumPowder.1"
+        },
+        "Count": 3
+      },
+      "BuildTime": 3.0
+    }
+  }
+]

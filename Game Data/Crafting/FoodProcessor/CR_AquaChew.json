@@ -1,0 +1,72 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_AquaChew",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/FoodProcessor/CR_AquaChew",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Aquachew_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_Aquachew_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Consumables.Consumables",
+        "Key": "AquaChew_name",
+        "SourceString": "Aqua Chew",
+        "LocalizedString": "Aqua Chew"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Consumables.Consumables",
+        "Key": "AquaChew_desc",
+        "SourceString": "Eat for effects. Gain 100 Hydration.",
+        "LocalizedString": "Eat to gain effect. Gain 100 Hydration."
+      },
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Hydrobulb.I_Hydrobulb_C'",
+          "Value": 60
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_PrismHerb.I_PrismHerb_C'",
+          "Value": 20
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 200
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Hydrobulb_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Hydrobulb.1"
+          },
+          "Count": 4
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_PrismHerb_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_PrismHerb.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_AquaChew_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_AquaChew.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 0.0
+    }
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "CrItemRecyclerRecipeData",
+    "Name": "RR_AntidoteFluid",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecyclerRecipeData'",
+    "Package": "/Game/Chimera/Crafting/Recycler/RR_AntidoteFluid",
+    "Properties": {
+      "InputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_AntidoteFluid_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_AntidoteFluid.1"
+        },
+        "Count": 1
+      },
+      "OutputResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_StarTears_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_StarTears.1"
+          },
+          "Count": 2
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_Dome",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_Dome",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Dome_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_Dome_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "Dome_name",
+        "SourceString": "Dome",
+        "LocalizedString": "Dome"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "Level": 10,
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Scafolding.I_Scafolding_C'",
+          "Value": 500
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Converter.I_Converter_C'",
+          "Value": 300
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Condenser.I_Condenser_C'",
+          "Value": 100
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Airlock.I_Airlock_C'",
+          "Value": 300
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 8000
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Uberfilament_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Uberfilament.1"
+          },
+          "Count": 8
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Condenser_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Condenser.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Airlock_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Airlock.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Scafolding_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Scafolding.1"
+          },
+          "Count": 4
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Converter_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Converter.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_Dome_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_Dome.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 20.0
+    }
+  }
+]

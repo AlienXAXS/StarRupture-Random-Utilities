@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "CrBuildingUpgradeRecipeData",
+    "Name": "BR_PersonalStorageBig",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrBuildingUpgradeRecipeData'",
+    "Package": "/Game/Chimera/BuildingUpgrades/BR_PersonalStorageBig",
+    "Properties": {
+      "BuildingReward": {
+        "ObjectName": "CrBuildingData'BD_PersonalStorageBig'",
+        "ObjectPath": "/Game/Chimera/Buildings/Interiors/PersonalStorageBig/BD_PersonalStorageBig.0"
+      },
+      "Tasks": [
+        {
+          "ID": "35415844-4F8FF4D1-360D7E8F-CD5B4A73",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_LargePersonalStorage_HaveBuild_desc",
+            "SourceString": "Build Small Personal Storages",
+            "LocalizedString": "Build Small Personal Storages"
+          },
+          "Context": "OnBuilt",
+          "ContextValue": "PersonalStorage",
+          "ContextNumber": 5,
+          "bCheckConditionWhenInactive": true
+        },
+        {
+          "ID": "06768B38-4E5432A2-7F4DB395-61A4C3C0",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_LargePersonalStorage_Loot_desc",
+            "SourceString": "Loot containers, dead bodies, or drone wrecks found in the world",
+            "LocalizedString": "Loot containers, dead bodies, or drone wrecks found in the world"
+          },
+          "Context": "OnLootTaken",
+          "ContextValue": "None",
+          "ContextNumber": 50,
+          "bCheckConditionWhenInactive": true
+        }
+      ],
+      "Recipe": {
+        "ObjectName": "CrItemRecipeData'CR_PersonalStorageBig'",
+        "ObjectPath": "/Game/Chimera/BuildingUpgrades/CR_PersonalStorageBig.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_BasicBuildingMaterial_ItemPrinterELM",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_BasicBuildingMaterial_ItemPrinterELM",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_BasicBuildingMaterial_Recipe_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_BasicBuildingMaterial_Recipe_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "BasicBuildingMaterial_name",
+        "SourceString": "Basic Building Material",
+        "LocalizedString": "Basic Building Material"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "BasicBuildingMaterial_desc",
+        "SourceString": "Material used  by Building Tool to set up basic structures.",
+        "LocalizedString": "Material used by the Building Tool to set up basic structures."
+      },
+      "bShowOutputItemIcon": false,
+      "SendNotificationToDialogueSystem": true,
+      "bSkipDialoguesRulesCheck": true,
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_ElementaryBuildingMaterial.I_ElementaryBuildingMaterial_C'",
+          "Value": 2000
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_ElementaryBuildingMaterial_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_ElementaryBuildingMaterial.1"
+          },
+          "Count": 10
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_BasicBuildingMaterial_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_BasicBuildingMaterial.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 0.0
+    }
+  }
+]

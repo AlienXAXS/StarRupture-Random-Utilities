@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "CrBuildingUpgradeRecipeData",
+    "Name": "BR_FurnanceTier2",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrBuildingUpgradeRecipeData'",
+    "Package": "/Game/Chimera/BuildingUpgrades/BR_FurnanceTier2",
+    "Properties": {
+      "BuildingReward": {
+        "ObjectName": "CrBuildingData'BD_FurnaceTier2'",
+        "ObjectPath": "/Game/Chimera/Buildings/FurnaceTier2/BD_FurnaceTier2.0"
+      },
+      "Tasks": [
+        {
+          "ID": "F51314B9-4C14DDE0-F0827D9F-04B1E45C",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_BuildFurnace",
+            "SourceString": "Build Furnaces",
+            "LocalizedString": "Build Furnaces"
+          },
+          "Context": "OnHave",
+          "ContextValue": "Furnace",
+          "ContextNumber": 30,
+          "bCheckConditionWhenInactive": true
+        },
+        {
+          "ID": "459BD3A0-4902120D-17CECFBB-25A76A96",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_Furnace_desc",
+            "SourceString": "Unlock all Furnace recipes",
+            "LocalizedString": "Unlock all Furnace recipes"
+          },
+          "Context": "OnAllRecipesUnlocked",
+          "ContextValue": "Furnace",
+          "ContextNumber": 1,
+          "bCheckConditionWhenInactive": true
+        }
+      ],
+      "Recipe": {
+        "ObjectName": "CrItemRecipeData'CR_FurnanceTier2'",
+        "ObjectPath": "/Game/Chimera/BuildingUpgrades/CR_FurnanceTier2.0"
+      }
+    }
+  }
+]

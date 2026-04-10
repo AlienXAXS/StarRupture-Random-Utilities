@@ -1,0 +1,72 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_Purfins",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/FoodProcessor/CR_Purfins",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Purfins_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_Purfins_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Consumables.Consumables",
+        "Key": "Purfins_name",
+        "SourceString": "Purfins",
+        "LocalizedString": "Purfins"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Consumables.Consumables",
+        "Key": "Purfins_desc_long",
+        "SourceString": "Eat for effects. Remove 70 Toxicity. Remove all positive effects.",
+        "LocalizedString": "Eat for effects. Remove 70 Toxicity. Remove all positive effects."
+      },
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Purplant.I_Purplant_C'",
+          "Value": 20
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_SerpentRoot.I_SerpentRoot_C'",
+          "Value": 20
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 100
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Purplant_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Purplant.1"
+          },
+          "Count": 3
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_SerpentRoot_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_SerpentRoot.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_Purfins_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_Purfins.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 0.0
+    }
+  }
+]

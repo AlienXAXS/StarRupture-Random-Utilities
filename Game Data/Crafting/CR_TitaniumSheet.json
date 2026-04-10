@@ -1,0 +1,62 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_TitaniumSheet",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_TitaniumSheet",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_titaniumSheet_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_titaniumSheet_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "TitaniumSheet_name",
+        "SourceString": "Titanium Sheet",
+        "LocalizedString": "Titanium Sheet"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterial_desc",
+        "SourceString": "Crafting Material. Used in various recipes.",
+        "LocalizedString": "Crafting Material. Used in various recipes."
+      },
+      "Level": 2,
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_TitaniumBar.I_TitaniumBar_C'",
+          "Value": 600
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 200
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_TitaniumBar_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_TitaniumBar.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_TitaniumSheet_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_TitaniumSheet.1"
+        },
+        "Count": 2
+      },
+      "BuildTime": 2.0
+    }
+  }
+]

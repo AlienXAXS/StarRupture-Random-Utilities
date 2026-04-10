@@ -1,0 +1,61 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_SerpentSticks",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/FoodProcessor/CR_SerpentSticks",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_SerpentSticks_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_SerpentSticks_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Consumables.Consumables",
+        "Key": "SerpentSticks_name",
+        "SourceString": "Serpent Sticks",
+        "LocalizedString": "Serpent Sticks"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Consumables.Consumables",
+        "Key": "SerpentSticks_desc_long",
+        "SourceString": "Eat for effects. Double natural Energy regeneration. Lasts 40 min. Gain 30 Toxicity. Does not stack with other Energy regeneration effects.",
+        "LocalizedString": "Eat for effects. Double natural Energy regeneration. Lasts 40 min. Gain 30 Toxicity. Does not stack with other Energy regeneration effects."
+      },
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_SerpentRoot.I_SerpentRoot_C'",
+          "Value": 25
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 100
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_SerpentRoot_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_SerpentRoot.1"
+          },
+          "Count": 2
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_SerpentSticks_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_SerpentSticks.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 0.0
+    }
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "CrItemRecipeCollection",
+    "Name": "CRC_Crafter",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeCollection'",
+    "Package": "/Game/Chimera/Crafting/CRC_Crafter",
+    "Properties": {
+      "Recipes": [
+        {
+          "ObjectName": "CrItemRecipeData'CR_BasicBuildingMaterial'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_BasicBuildingMaterial.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_PistolAmmoItem'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_PistolAmmoItem.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_TitaniumRod'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_TitaniumRod.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_WolframWire'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_WolframWire.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_CalciteSheets'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_CalciteSheets.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_TitaniumBeam'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_TitaniumBeam.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_TitaniumSheet'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_TitaniumSheet.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_WolframPlate'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_WolframPlate.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Rotor'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Rotor.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Tube'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Tube.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Gyroscope'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Gyroscope.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Stator'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Stator.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Syringe'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Syringe.0"
+        }
+      ]
+    }
+  }
+]

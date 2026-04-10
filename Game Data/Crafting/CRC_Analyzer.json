@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "CrItemRecipeCollection",
+    "Name": "CRC_Analyzer",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeCollection'",
+    "Package": "/Game/Chimera/Crafting/CRC_Analyzer",
+    "Properties": {
+      "Recipes": [
+        {
+          "ObjectName": "CrItemRecipeData'CR_Analyze_BuildingBlueprint_Teleporter'",
+          "ObjectPath": "/Game/Chimera/Research/BuildingBlueprints/AnalyzerRecipes/CR_Analyze_BuildingBlueprint_Teleporter.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Analyze_BuildingBlueprint_AcidExtractor'",
+          "ObjectPath": "/Game/Chimera/Research/BuildingBlueprints/AnalyzerRecipes/CR_Analyze_BuildingBlueprint_AcidExtractor.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Analyze_BuildingBlueprint_CombustionPowerGenerator'",
+          "ObjectPath": "/Game/Chimera/Research/BuildingBlueprints/AnalyzerRecipes/CR_Analyze_BuildingBlueprint_CombustionPowerGenerator.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Analyze_BuildingBlueprint_LiquidExtractor'",
+          "ObjectPath": "/Game/Chimera/Research/BuildingBlueprints/AnalyzerRecipes/CR_Analyze_BuildingBlueprint_LiquidExtractor.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Analyze_BuildingBlueprint_Zipline'",
+          "ObjectPath": "/Game/Chimera/Research/BuildingBlueprints/AnalyzerRecipes/CR_Analyze_BuildingBlueprint_Zipline.0"
+        }
+      ]
+    }
+  }
+]

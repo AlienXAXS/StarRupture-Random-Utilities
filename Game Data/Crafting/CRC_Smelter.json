@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "CrItemRecipeCollection",
+    "Name": "CRC_Smelter",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeCollection'",
+    "Package": "/Game/Chimera/Crafting/CRC_Smelter",
+    "Properties": {
+      "Recipes": [
+        {
+          "ObjectName": "CrItemRecipeData'CR_TitaniumBar'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_TitaniumBar.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_WolframBar'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_WolframBar.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_CalciumBlock'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_CalciumBlock.0"
+        }
+      ]
+    }
+  }
+]

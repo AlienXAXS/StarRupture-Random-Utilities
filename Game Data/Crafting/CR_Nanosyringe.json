@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_Nanosyringe",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_Nanosyringe",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Nanosyringe_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_Nanosyringe_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "Nanosyringe_name",
+        "SourceString": "Nanosyringe",
+        "LocalizedString": "Nanosyringe"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "Level": 11,
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_NanosyringeBlueprint.I_NanosyringeBlueprint_C'",
+          "Value": 1
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_SubstanceFHS-135-493.I_SubstanceFHS-135-493_C'",
+          "Value": 500
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Syringe.I_Syringe_C'",
+          "Value": 600
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Nanofibre.I_Nanofibre_C'",
+          "Value": 400
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 6000
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_HardeningAgent_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_HardeningAgent.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Syringe_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Syringe.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Nanofibre_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Nanofibre.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_SubstanceFHS-135-493_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_SubstanceFHS-135-493.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_Nanosyringe_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_Nanosyringe.1"
+        },
+        "Count": 1
+      }
+    }
+  }
+]

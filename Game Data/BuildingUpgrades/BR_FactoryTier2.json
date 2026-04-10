@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "CrBuildingUpgradeRecipeData",
+    "Name": "BR_FactoryTier2",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrBuildingUpgradeRecipeData'",
+    "Package": "/Game/Chimera/BuildingUpgrades/BR_FactoryTier2",
+    "Properties": {
+      "BuildingReward": {
+        "ObjectName": "CrBuildingData'BD_FactoryTier2'",
+        "ObjectPath": "/Game/Chimera/Buildings/FactoryTier2/BD_FactoryTier2.0"
+      },
+      "Tasks": [
+        {
+          "ID": "829F3CB3-45916E93-C09DD59B-44B0670F",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_BaseCore5_desc",
+            "SourceString": "Have a Base Core upgraded to Level 5 or higher",
+            "LocalizedString": "Have a Base Core upgraded to Level 5 or higher"
+          },
+          "Context": "OnHave",
+          "ContextValue": "BaseCore_5",
+          "ContextNumber": 1,
+          "bCheckConditionWhenInactive": true
+        },
+        {
+          "ID": "6E157826-4071F660-63C547A1-B8D391E4",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_Constructorizer_desc",
+            "SourceString": "Unlock all Constructorizer recipes",
+            "LocalizedString": "Unlock all Constructorizer recipes"
+          },
+          "Context": "OnAllRecipesUnlocked",
+          "ContextValue": "Factory",
+          "ContextNumber": 1,
+          "bCheckConditionWhenInactive": true
+        },
+        {
+          "ID": "AC1F4A8C-4C5C7851-DBAAC7B4-2884859C",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_EnergyGenerated_desc",
+            "SourceString": "Total Power available in grid",
+            "LocalizedString": "Total Power available in grid"
+          },
+          "Context": "OnHave",
+          "ContextValue": "ElectricityProduced",
+          "ContextNumber": 30000,
+          "bCheckConditionWhenInactive": true
+        }
+      ],
+      "Recipe": {
+        "ObjectName": "CrItemRecipeData'CR_FactoryTier2'",
+        "ObjectPath": "/Game/Chimera/BuildingUpgrades/CR_FactoryTier2.0"
+      }
+    }
+  }
+]

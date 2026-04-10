@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_IonInjector",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_IonInjector",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_IonInjector_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_IonInjector_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "IonInjector_name",
+        "SourceString": "Ion Injector",
+        "LocalizedString": "Ion Injector"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "Level": 9,
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Syringe.I_Syringe_C'",
+          "Value": 400
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_PressureTank.I_PressureTank_C'",
+          "Value": 100
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Electromagnet.I_Electromagnet_C'",
+          "Value": 200
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 3000
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Syringe_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Syringe.1"
+          },
+          "Count": 8
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Electromagnet_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Electromagnet.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_PressureTank_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_PressureTank.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_IonInjector_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_IonInjector.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 12.0
+    }
+  }
+]

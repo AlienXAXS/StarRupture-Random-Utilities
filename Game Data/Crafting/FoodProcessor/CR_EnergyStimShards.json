@@ -1,0 +1,72 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_EnergyStimShards",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/FoodProcessor/CR_EnergyStimShards",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_EnergyStimShards_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_EnergyStimShards_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Consumables.Consumables",
+        "Key": "EnergyStimShards_name",
+        "SourceString": "Energy Stim Shards",
+        "LocalizedString": "Energy Stim Shards"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Consumables.Consumables",
+        "Key": "EnergyStimShards_desc_long",
+        "SourceString": "Eat for effects. Increase Energy limit by 100%. Lasts 60 min. Gain 45 Toxicity.",
+        "LocalizedString": "Eat for effects. Increase Energy limit by 100%. Lasts 60 min. Gain 45 Toxicity."
+      },
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Sulheart.I_Sulheart_C'",
+          "Value": 60
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_SerpentRoot.I_SerpentRoot_C'",
+          "Value": 40
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 200
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Sulheart_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Sulheart.1"
+          },
+          "Count": 3
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_SerpentRoot_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_SerpentRoot.1"
+          },
+          "Count": 2
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_EnergyStimShards_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_EnergyStimShards.1"
+        },
+        "Count": 2
+      },
+      "BuildTime": 0.0
+    }
+  }
+]

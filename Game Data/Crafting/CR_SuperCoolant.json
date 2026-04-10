@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_SuperCoolant",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_SuperCoolant",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'WhiteSquareTexture'",
+          "ObjectPath": "/Engine/EngineResources/WhiteSquareTexture.0"
+        }
+      },
+      "DisplayText": {
+        "Namespace": "",
+        "Key": "934B213044B4DC26A97DA9BAEB459018",
+        "SourceString": "<MISSING STRING TABLE ENTRY>",
+        "LocalizedString": "<MISSING STRING TABLE ENTRY>"
+      },
+      "DisplayDescription": {
+        "Namespace": "",
+        "Key": "4C4ADFC24B21020648CAAD925CF67044",
+        "SourceString": "<MISSING STRING TABLE ENTRY>",
+        "LocalizedString": "<MISSING STRING TABLE ENTRY>"
+      },
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_CoolantBasic_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_CoolantBasic.1"
+          },
+          "Count": 5
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_CoolantSuper_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_CoolantSuper.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 5.0
+    }
+  }
+]

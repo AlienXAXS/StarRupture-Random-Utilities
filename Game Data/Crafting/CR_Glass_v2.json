@@ -1,0 +1,71 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_Glass_v2",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_Glass_v2",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Glass_RecV2_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/ItemRecipiesIcons/T_Glass_RecV2_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "Glass_name",
+        "SourceString": "Glass",
+        "LocalizedString": "Glass"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "bShowOutputItemIcon": false,
+      "Level": 3,
+      "BaseRecipe": {
+        "ObjectName": "CrItemRecipeData'CR_Glass'",
+        "ObjectPath": "/Game/Chimera/Crafting/CR_Glass.0"
+      },
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_PressurizedHelium_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_PressurizedHelium.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_CalciteSheets_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_CalciteSheets.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_GoethiteIngot_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_GoethiteIngot.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_Glass_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_Glass.1"
+        },
+        "Count": 4
+      },
+      "BuildTime": 3.0
+    }
+  }
+]

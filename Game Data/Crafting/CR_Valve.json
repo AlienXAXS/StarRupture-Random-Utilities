@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_Valve",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_Valve",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Valve_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_Valve_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "Valve_name",
+        "SourceString": "Valve",
+        "LocalizedString": "Valve"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "Level": 5,
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_ValveBlueprint.I_ValveBlueprint_C'",
+          "Value": 1
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Nozzle.I_Nozzle_C'",
+          "Value": 200
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_TitaniumHousing.I_TitaniumHousing_C'",
+          "Value": 400
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_TitaniumRod.I_TitaniumRod_C'",
+          "Value": 300
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 1000
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_TitaniumHousing_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_TitaniumHousing.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_TitaniumBeam_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_TitaniumBeam.1"
+          },
+          "Count": 3
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_TitaniumRod_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_TitaniumRod.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Nozzle_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Nozzle.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_Valve_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_Valve.1"
+        },
+        "Count": 1
+      }
+    }
+  }
+]

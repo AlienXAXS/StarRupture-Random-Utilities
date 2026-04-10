@@ -1,0 +1,72 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_NutriChew",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/FoodProcessor/CR_NutriChew",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Nutrichew_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_Nutrichew_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Consumables.Consumables",
+        "Key": "NutriChew_name",
+        "SourceString": "Nutri Chew",
+        "LocalizedString": "Nutri Chew"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Consumables.Consumables",
+        "Key": "NutriChew_desc",
+        "SourceString": "Eat for effects. Gain 30 Calories, 40 Hydration.",
+        "LocalizedString": "Eat to gain effect. Gain 30 Calories, 40 Hydration."
+      },
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Prickler.I_Prickler_C'",
+          "Value": 70
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_PrismHerb.I_PrismHerb_C'",
+          "Value": 20
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 400
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Prickler_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Prickler.1"
+          },
+          "Count": 4
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_PrismHerb_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_PrismHerb.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_NutriChew_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_NutriChew.1"
+        },
+        "Count": 2
+      },
+      "BuildTime": 0.0
+    }
+  }
+]

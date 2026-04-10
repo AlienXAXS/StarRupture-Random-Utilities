@@ -1,0 +1,69 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_MECSPart",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_MECSPart",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'WhiteSquareTexture'",
+          "ObjectPath": "/Engine/EngineResources/WhiteSquareTexture.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "MECSPart_name",
+        "SourceString": "Main Engine Central Core",
+        "LocalizedString": "Main Engine Central Core"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "MECSPart_desc",
+        "SourceString": "The central core part, essentail for working of the structure’s main engine",
+        "LocalizedString": "The central core, essential for the structure’s main engine to work"
+      },
+      "SendNotificationToDialogueSystem": true,
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Gyroscope_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Gyroscope.1"
+          },
+          "Count": 3
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Generator_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Generator.1"
+          },
+          "Count": 3
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Accumulator_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Accumulator.1"
+          },
+          "Count": 4
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_ElectromagneticCoil_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_ElectromagneticCoil.1"
+          },
+          "Count": 8
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_MECSPart_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_MECSPart.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 0.0
+    }
+  }
+]

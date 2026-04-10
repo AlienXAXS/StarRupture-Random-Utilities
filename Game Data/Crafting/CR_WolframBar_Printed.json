@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_WolframBar_Printed",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_WolframBar_Printed",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_WolframBar_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_WolframBar_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "WolframBar_name",
+        "SourceString": "Wolfram Bar",
+        "LocalizedString": "Wolfram Bar"
+      },
+      "DisplayDescription": {
+        "Namespace": "",
+        "Key": "F8705F2F49D79C765EBA67AE405EA5B7",
+        "SourceString": "<MISSING STRING TABLE ENTRY>",
+        "LocalizedString": "<MISSING STRING TABLE ENTRY>"
+      },
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_WolframOre_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_WolframOre.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_WolframBar_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_WolframBar.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 5.0
+    }
+  }
+]

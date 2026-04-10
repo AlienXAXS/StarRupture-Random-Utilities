@@ -1,0 +1,102 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_Cyclotrone",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_Cyclotrone",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Cyclotrone_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_Cyclotrone_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "Cyclotrone_name",
+        "SourceString": "Cyclotrone",
+        "LocalizedString": "Cyclotrone"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "Level": 12,
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_ReinforcedHousing.I_ReinforcedHousing_C'",
+          "Value": 800
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Aerogel.I_Aerogel_C'",
+          "Value": 800
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_PlasticDust.I_PlasticDust_C'",
+          "Value": 600
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_IonInjector.I_IonInjector_C'",
+          "Value": 100
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 8000
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Aerogel_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Aerogel.1"
+          },
+          "Count": 8
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Electromagnet_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Electromagnet.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_IonInjector_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_IonInjector.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_ReinforcedHousing_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_ReinforcedHousing.1"
+          },
+          "Count": 5
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_PlasticDust_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_PlasticDust.1"
+          },
+          "Count": 5
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_Cyclotrone_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_Cyclotrone.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 15.0
+    }
+  }
+]

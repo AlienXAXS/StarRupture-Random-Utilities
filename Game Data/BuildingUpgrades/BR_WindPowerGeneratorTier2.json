@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "CrBuildingUpgradeRecipeData",
+    "Name": "BR_WindPowerGeneratorTier2",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrBuildingUpgradeRecipeData'",
+    "Package": "/Game/Chimera/BuildingUpgrades/BR_WindPowerGeneratorTier2",
+    "Properties": {
+      "BuildingReward": {
+        "ObjectName": "CrBuildingData'BD_WindPowerGeneratorTier2'",
+        "ObjectPath": "/Game/Chimera/Buildings/WindPowerGeneratorTier2/BD_WindPowerGeneratorTier2.0"
+      },
+      "Tasks": [
+        {
+          "ID": "B43F5AD7-497AF923-B2D03EB6-68F23F16",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_BaseCore3_desc",
+            "SourceString": "Have a Base Core upgraded to Level 3 or higher",
+            "LocalizedString": "Have a Base Core upgraded to Level 3 or higher"
+          },
+          "Context": "OnHave",
+          "ContextValue": "BaseCore_3",
+          "ContextNumber": 1,
+          "bCheckConditionWhenInactive": true
+        },
+        {
+          "ID": "4B335F70-44AC3811-33625B98-7101AF86",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_EnergyConsumed_desc",
+            "SourceString": "Total Power consumed by buildings",
+            "LocalizedString": "Total Power consumed by buildings"
+          },
+          "Context": "OnHave",
+          "ContextValue": "ElectricityConsumed",
+          "ContextNumber": 6000,
+          "bCheckConditionWhenInactive": true
+        }
+      ],
+      "Recipe": {
+        "ObjectName": "CrItemRecipeData'CR_WindPowerGeneratorTier2'",
+        "ObjectPath": "/Game/Chimera/BuildingUpgrades/CR_WindPowerGeneratorTier2.0"
+      }
+    }
+  }
+]

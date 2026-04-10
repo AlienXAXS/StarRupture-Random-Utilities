@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "CrItemRecipeCollection",
+    "Name": "CRC_MaterialCrafter",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeCollection'",
+    "Package": "/Game/Chimera/Crafting/CRC_MaterialCrafter",
+    "Properties": {
+      "Recipes": [
+        {
+          "ObjectName": "CrItemRecipeData'CR_BasicBuildingMaterial_MaterialCrafter'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_BasicBuildingMaterial_MaterialCrafter.0"
+        }
+      ]
+    }
+  }
+]

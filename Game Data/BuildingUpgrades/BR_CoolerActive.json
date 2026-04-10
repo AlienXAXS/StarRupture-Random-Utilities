@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "CrBuildingUpgradeRecipeData",
+    "Name": "BR_CoolerActive",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrBuildingUpgradeRecipeData'",
+    "Package": "/Game/Chimera/BuildingUpgrades/BR_CoolerActive",
+    "Properties": {
+      "BuildingReward": {
+        "ObjectName": "CrBuildingData'BD_CoolerActive'",
+        "ObjectPath": "/Game/Chimera/Buildings/Cooler/Active/BD_CoolerActive.0"
+      },
+      "Tasks": [
+        {
+          "ID": "5DF422F6-4F2ABF71-52C8A593-F190056C",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_MineMeteors_desc",
+            "SourceString": "Mine Meteor Hearts",
+            "LocalizedString": "Mine Meteorite Hearts"
+          },
+          "Context": "OnPickupviaHarvester",
+          "ContextValue": "MeteorCore",
+          "ContextNumber": 25,
+          "bCheckConditionWhenInactive": false
+        },
+        {
+          "ID": "F029E7E9-459E49A3-8CF3FBAE-5A94EC12",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_BaseCore4_desc",
+            "SourceString": "Have a Base Core upgraded to Level 4 or higher",
+            "LocalizedString": "Have a Base Core upgraded to Level 4 or higher"
+          },
+          "Context": "OnHave",
+          "ContextValue": "BaseCore_4",
+          "ContextNumber": 1,
+          "bCheckConditionWhenInactive": true
+        },
+        {
+          "ID": "F0FCF7D0-4A922E60-BB645D86-604C86DD",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_CoolingCapacity",
+            "SourceString": "Spent Cooling Capacity of a Base Core",
+            "LocalizedString": "Spent Cooling Capacity of a Base Core"
+          },
+          "Context": "OnHaveBaseCoreCapacity",
+          "ContextValue": "Used",
+          "ContextNumber": 1500,
+          "bCheckConditionWhenInactive": true
+        }
+      ],
+      "Recipe": {
+        "ObjectName": "CrItemRecipeData'CR_CoolerActive'",
+        "ObjectPath": "/Game/Chimera/BuildingUpgrades/CR_CoolerActive.0"
+      }
+    }
+  }
+]

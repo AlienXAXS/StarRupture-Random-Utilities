@@ -1,0 +1,72 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_TermoResPlasm",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/FoodProcessor/CR_TermoResPlasm",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_TermoResPlasm_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_TermoResPlasm_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Consumables.Consumables",
+        "Key": "TermoResPlasm_name",
+        "SourceString": "Termo Res Plasm",
+        "LocalizedString": "Termo Res Plasm"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Consumables.Consumables",
+        "Key": "TermoResPlasm_desc_long",
+        "SourceString": "Eat for effects. Double natural Heat Resistance. Lasts 10 min. Gain 40 Toxicity.",
+        "LocalizedString": "Eat for effects. Double natural Heat Resistance. Lasts 10 min. Gain 40 Toxicity."
+      },
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Glowcap.I_Glowcap_C'",
+          "Value": 15
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Grubbler.I_Grubbler_C'",
+          "Value": 10
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 100
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Glowcap_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Glowcap.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Grubbler_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Grubbler.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_TermoResPlasm_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_TermoResPlasm.1"
+        },
+        "Count": 2
+      },
+      "BuildTime": 0.0
+    }
+  }
+]

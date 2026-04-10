@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "CrItemRecipeCollection",
+    "Name": "CRC_ForgottenEngine_FoodProcessor",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeCollection'",
+    "Package": "/Game/Chimera/Crafting/CRC_ForgottenEngine_FoodProcessor",
+    "Properties": {
+      "Recipes": [
+        {
+          "ObjectName": "CrItemRecipeData'CR_Polisnack'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_Polisnack.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Hydrolite'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_Hydrolite.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Purfins'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_Purfins.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_SerpentSticks'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_SerpentSticks.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Figler'",
+          "ObjectPath": "/Game/Chimera/Crafting/FoodProcessor/CR_Figler.0"
+        }
+      ]
+    }
+  }
+]

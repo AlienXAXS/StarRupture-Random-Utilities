@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_MolecularScalpel",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_MolecularScalpel",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_MolecularScalpel_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_MolecularScalpel_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "MolecularScalpel_name",
+        "SourceString": "Molecular Scalpel",
+        "LocalizedString": "Molecular Scalpel"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "Level": 13,
+      "Corporation": "FutureCorporation",
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Scanner_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Scanner.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_RNAStabilizer_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_RNAStabilizer.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Nanosyringe_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Nanosyringe.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Lens_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Lens.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_UberOil_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_UberOil.1"
+          },
+          "Count": 4
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_MolecularScalpel_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_MolecularScalpel.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 20.0
+    }
+  }
+]

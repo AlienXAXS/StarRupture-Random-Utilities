@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "CrItemRecipeCollection",
+    "Name": "CRC_ForgottenEngine_EntryTerminal",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeCollection'",
+    "Package": "/Game/Chimera/Crafting/CRC_ForgottenEngine_EntryTerminal",
+    "Properties": {
+      "Recipes": [
+        {
+          "ObjectName": "CrItemRecipeData'CR_ForgottenEngine_EntryTerminal'",
+          "ObjectPath": "/Game/Chimera/Buildings/ForgottenEngine/MegaMachine/CR_ForgottenEngine_EntryTerminal.0"
+        }
+      ]
+    }
+  }
+]

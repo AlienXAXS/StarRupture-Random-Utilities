@@ -1,0 +1,41 @@
+[
+  {
+    "Type": "CrItemRecyclerRecipeData",
+    "Name": "RR_CarbonSonar",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecyclerRecipeData'",
+    "Package": "/Game/Chimera/Crafting/Recycler/RR_CarbonSonar",
+    "Properties": {
+      "InputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_CarbonSonar_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_CarbonSonar.1"
+        },
+        "Count": 1
+      },
+      "OutputResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_IntermediateBuildingMaterial_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_IntermediateBuildingMaterial.1"
+          },
+          "Count": 4
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_BasicBuildingMaterial_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_BasicBuildingMaterial.1"
+          },
+          "Count": 6
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_ElementaryBuildingMaterial_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_ElementaryBuildingMaterial.1"
+          },
+          "Count": 22
+        }
+      ]
+    }
+  }
+]

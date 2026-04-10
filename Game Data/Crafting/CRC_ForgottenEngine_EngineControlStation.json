@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "CrItemRecipeCollection",
+    "Name": "CRC_ForgottenEngine_EngineControlStation",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeCollection'",
+    "Package": "/Game/Chimera/Crafting/CRC_ForgottenEngine_EngineControlStation",
+    "Properties": {
+      "Recipes": [
+        {
+          "ObjectName": "CrItemRecipeData'CR_ForgottenEngine_EngineControlStation'",
+          "ObjectPath": "/Game/Chimera/Buildings/ForgottenEngine/MegaMachine/EngineControlStation/CR_ForgottenEngine_EngineControlStation.0"
+        }
+      ]
+    }
+  }
+]

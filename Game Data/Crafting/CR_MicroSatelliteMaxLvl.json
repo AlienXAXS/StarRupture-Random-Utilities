@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_MicroSatelliteMaxLvl",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_MicroSatelliteMaxLvl",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_MicroSatellite_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_MicroSatellite_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "MicroSatellite_name",
+        "SourceString": "Micro Satellite",
+        "LocalizedString": "Micro Satellite"
+      },
+      "DisplayDescription": {
+        "Namespace": "",
+        "Key": "0F551AEA42CA292E35D1C394446A4714",
+        "SourceString": "<MISSING STRING TABLE ENTRY>",
+        "LocalizedString": "<MISSING STRING TABLE ENTRY>"
+      },
+      "Level": 10,
+      "Corporation": "CleverCorporation",
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_MicroSatellite.I_MicroSatellite_C'",
+          "Value": 1
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_SatelliteAssembly_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_SatelliteAssembly.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_RocketFuel_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_RocketFuel.1"
+          },
+          "Count": 6
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_MicroSatellite_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_MicroSatellite.1"
+        },
+        "Count": 1
+      }
+    }
+  }
+]

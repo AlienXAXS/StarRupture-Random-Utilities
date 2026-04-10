@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "CrItemRecyclerRecipeData",
+    "Name": "RR_RegenCapsules",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecyclerRecipeData'",
+    "Package": "/Game/Chimera/Crafting/Recycler/RR_RegenCapsules",
+    "Properties": {
+      "InputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_RegenCapsules_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_RegenCapsules.1"
+        },
+        "Count": 1
+      },
+      "OutputResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Oxallop_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Oxallop.1"
+          },
+          "Count": 2
+        }
+      ]
+    }
+  }
+]

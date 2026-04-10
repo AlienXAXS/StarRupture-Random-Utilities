@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_PropulsionStage",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_PropulsionStage",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_PropulsionStage_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_PropulsionStage_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "PropulsionStage_name",
+        "SourceString": "Propulsion Stage",
+        "LocalizedString": "Propulsion Stage"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "Level": 13,
+      "Corporation": "CleverCorporation",
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_PressureTank_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_PressureTank.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_RocketEngine_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_RocketEngine.1"
+          },
+          "Count": 3
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Valve_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Valve.1"
+          },
+          "Count": 3
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Pump_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Pump.1"
+          },
+          "Count": 3
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_OnboardInstruments_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_OnboardInstruments.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_PropulsionStage_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_PropulsionStage.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 20.0
+    }
+  }
+]

@@ -1,0 +1,2706 @@
+"lockedRecipes": {
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_WolframPlate.CR_WolframPlate'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_WolframBar.I_WolframBar_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Valve.CR_Valve'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_ValveBlueprint.I_ValveBlueprint_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Nozzle.I_Nozzle_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_TitaniumHousing.I_TitaniumHousing_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_TitaniumRod.I_TitaniumRod_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_UberWolfram.CR_UberWolfram'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_GoethiteOre.I_GoethiteOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_WolframOre.I_WolframOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_UberTitanium.CR_UberTitanium'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_GoethiteOre.I_GoethiteOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_TitaniumOre.I_TitaniumOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_UberOil.CR_UberOil'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_RefinedOil.I_RefinedOil_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SulphuricAcid.I_SulphuricAcid_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Explosive.I_Explosive_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Uberfilament.CR_Uberfilament'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_UberfilamentBlueprint.I_UberfilamentBlueprint_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Epoxy.I_Epoxy_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_GoethiteLattice.I_GoethiteLattice_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_CalciumPowder.I_CalciumPowder_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Turbine.CR_Turbine'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_TurbineBlueprint.I_TurbineBlueprint_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Impeller.I_Impeller_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Stator.I_Stator_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Rotor.I_Rotor_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Tube.CR_Tube'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_TubeBlueprint.I_TubeBlueprint_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_TitaniumRod.I_TitaniumRod_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_TitaniumSheet.I_TitaniumSheet_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_TitaniumSheet.CR_TitaniumSheet'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_TitaniumBar.I_TitaniumBar_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_TitaniumHousing.CR_TitaniumHousing'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_TitaniumSheet.I_TitaniumSheet_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_TitaniumBeam.I_TitaniumBeam_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_TitaniumBeam.CR_TitaniumBeam'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_TitaniumBar.I_TitaniumBar_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Syringe.CR_Syringe'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Tube.I_Tube_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Glass.I_Glass_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_SyntheticProtein.CR_SyntheticProtein'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_OrganicCompound.I_OrganicCompound_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SubstanceFHS-135-493.I_SubstanceFHS-135-493_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SulphuricAcid.I_SulphuricAcid_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_SyntheticDNA.CR_SyntheticDNA'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Biofilament.I_Biofilament_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SyntheticProtein.I_SyntheticProtein_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SubstanceFHS-135-493.I_SubstanceFHS-135-493_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Nanosyringe.I_Nanosyringe_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Supermagnet.CR_Supermagnet'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Explosive.I_Explosive_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_WolframPlate.I_WolframPlate_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SulphuricAcid.I_SulphuricAcid_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Superconductor.CR_Superconductor'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Electromagnet.I_Electromagnet_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Supermagnet.I_Supermagnet_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SyntheticResin.I_SyntheticResin_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_SubstanceFHS-135-493.CR_SubstanceFHS-135-493'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_GoethitePowder.I_GoethitePowder_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SulphuricAcid.I_SulphuricAcid_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_LiquidHelium.I_LiquidHelium_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Stator.CR_Stator'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_StatorBlueprint.I_StatorBlueprint_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_TitaniumHousing.I_TitaniumHousing_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_WolframWire.I_WolframWire_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_SilicaSand.CR_SilicaSand'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SilicaSandBlueprint.I_SilicaSandBlueprint_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_CalciumPowder.I_CalciumPowder_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Ceramics.I_Ceramics_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_HeliumOre.I_HeliumOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Self-sustainedHabitatMaxLvl.CR_Self-sustainedHabitatMaxLvl'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Self-sustainedHabitat.I_Self-sustainedHabitat_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Self-sustainedHabitat.CR_Self-sustainedHabitat'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Self-sustainedHabitatBlueprint.I_Self-sustainedHabitatBlueprint_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Scanner.CR_Scanner'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Lens.I_Lens_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Generator.I_Generator_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Gyroscope.I_Gyroscope_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_SatelliteBody.CR_SatelliteBody'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_RocketEngine.I_RocketEngine_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_OnboardInstruments.I_OnboardInstruments_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Scanner.I_Scanner_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_IonThrusters.I_IonThrusters_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_SatelliteAssembly.CR_SatelliteAssembly'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SatelliteAssemblyBlueprint.I_SatelliteAssemblyBlueprint_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_RTSCGenerator.CR_RTSCGenerator'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Anti-RadiationCovers.I_Anti-RadiationCovers_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_RTSC.I_RTSC_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Cyclotrone.I_Cyclotrone_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_LaserEmitter.I_LaserEmitter_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_RTSC.CR_RTSC'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_PseudorubberInsulator.I_PseudorubberInsulator_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Anti-RadiationCovers.I_Anti-RadiationCovers_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_HeatShield.I_HeatShield_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Aerogel.I_Aerogel_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Rotor.CR_Rotor'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_RotorBlueprint.I_RotorBlueprint_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_WolframWire.I_WolframWire_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_TitaniumRod.I_TitaniumRod_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_RocketFuel.CR_RocketFuel'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_LiquidHelium.I_LiquidHelium_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_BasicFuel.I_BasicFuel_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SulphuricAcid.I_SulphuricAcid_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_RocketEngine.CR_RocketEngine'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_RocketFuel.I_RocketFuel_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Condenser.I_Condenser_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Turbine.I_Turbine_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Pump.I_Pump_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_RNAStabilizer.CR_RNAStabilizer'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_UberOil.I_UberOil_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_OrganicCompound.I_OrganicCompound_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Nanosyringe.I_Nanosyringe_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SyntheticProtein.I_SyntheticProtein_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Resonator.CR_Resonator'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Accumulator.I_Accumulator_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Generator.I_Generator_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_LiquidHelium.I_LiquidHelium_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_ReinforcedHousing.CR_ReinforcedHousing'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_UberWolfram.I_UberWolfram_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_TitaniumHousing.I_TitaniumHousing_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_WolframPlate.I_WolframPlate_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_ReinforcedFrame.CR_ReinforcedFrame'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_UberTitanium.I_UberTitanium_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Tube.I_Tube_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_TitaniumBeam.I_TitaniumBeam_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_QuartzBuildingMaterialItemPrinter.CR_QuartzBuildingMaterialItemPrinter'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_QuartzOre.I_QuartzOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_IntermediateBuildingMaterial.I_IntermediateBuildingMaterial_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_QuantumTranqualizer.CR_QuantumTranqualizer'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_IonStabilizer.I_IonStabilizer_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Supermagnet.I_Supermagnet_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_PlasticDust.I_PlasticDust_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Pump.CR_Pump'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Valve.I_Valve_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Impeller.I_Impeller_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Turbine.I_Turbine_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SulphuricAcid.I_SulphuricAcid_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_PseudorubberInsulator.CR_PseudorubberInsulator'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_UberOil.I_UberOil_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Epoxy.I_Epoxy_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_GoethiteLattice.I_GoethiteLattice_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_PressurizedHelium.CR_PressurizedHelium'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_HeliumOre.I_HeliumOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SulphurOre.I_SulphurOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_PressureTank.CR_PressureTank'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Pump.I_Pump_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Valve.I_Valve_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_HeatResistantSheet.I_HeatResistantSheet_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_PlasticDust.CR_PlasticDust'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_PlasticDustBlueprint.I_PlasticDustBlueprint_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_OrganicCompound.I_OrganicCompound_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_BasicFuel.I_BasicFuel_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_UberOil.I_UberOil_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_PlasmaOxygenConverter.CR_PlasmaOxygenConverter'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_PlasmaOxygenConverterBlueprint.I_PlasmaOxygenConverterBlueprint_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_OrganProducerMaxLvl.CR_OrganProducerMaxLvl'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_OrganProducer.I_OrganProducer_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_OrganProducer.CR_OrganProducer'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_OrganProducerBlueprint.I_OrganProducerBlueprint_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_OrganicCompound.CR_OrganicCompound'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SulphuricAcid.I_SulphuricAcid_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_RefinedOil.I_RefinedOil_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Epoxy.I_Epoxy_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_OnboardInstruments.CR_OnboardInstruments'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Electronics.I_Electronics_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Gyroscope.I_Gyroscope_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_ReinforcedHousing.I_ReinforcedHousing_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Nozzle.CR_Nozzle'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_HeatResistantSheet.I_HeatResistantSheet_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_HeliumOre.I_HeliumOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Gyroscope.I_Gyroscope_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_NeutrinoMissileMaxLvl.CR_NeutrinoMissileMaxLvl'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_NeutrinoMissile.I_NeutrinoMissile_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_NeutrinoMissile.CR_NeutrinoMissile'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_NeutrinoMissileBlueprint.I_NeutrinoMissileBlueprint_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_NeutrinoBomb.CR_NeutrinoBomb'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_NeutrinoBombBlueprint.I_NeutrinoBombBlueprint_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Nanosyringe.CR_Nanosyringe'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_NanosyringeBlueprint.I_NanosyringeBlueprint_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SubstanceFHS-135-493.I_SubstanceFHS-135-493_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Syringe.I_Syringe_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Nanofibre.I_Nanofibre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Nanofibre.CR_Nanofibre'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Tube.I_Tube_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_LiquidHelium.I_LiquidHelium_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_MicroSatelliteMaxLvl.CR_MicroSatelliteMaxLvl'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_MicroSatellite.I_MicroSatellite_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_MicroSatellite.CR_MicroSatellite'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_MicroSatelliteBlueprint.I_MicroSatelliteBlueprint_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_LiquidHelium.CR_LiquidHelium'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_PressurizedHelium.I_PressurizedHelium_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_HardeningAgent.I_HardeningAgent_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Lens.CR_Lens'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SyntheticResin.I_SyntheticResin_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_HardeningAgent.I_HardeningAgent_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Glass.I_Glass_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_LaserEmitter.CR_LaserEmitter'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Resonator.I_Resonator_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_ElectromagneticCoil.I_ElectromagneticCoil_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Lens.I_Lens_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_IonThrusters.CR_IonThrusters'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_RocketFuel.I_RocketFuel_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Valve.I_Valve_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_HeatShield.I_HeatShield_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_PressureTank.I_PressureTank_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_IonStabilizer.CR_IonStabilizer'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_OnboardInstruments.I_OnboardInstruments_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_LiquidHelium.I_LiquidHelium_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Grenade.I_Grenade_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_IonInjector.CR_IonInjector'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Syringe.I_Syringe_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_PressureTank.I_PressureTank_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Electromagnet.I_Electromagnet_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_IonBomb.CR_IonBomb'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_TrackingDevice.I_TrackingDevice_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_IonInjector.I_IonInjector_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_IonStabilizer.I_IonStabilizer_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Grenade.I_Grenade_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_IntermediateBuildingMaterial_ItemPrinter.CR_IntermediateBuildingMaterial_ItemPrinter'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_BasicBuildingMaterial.I_BasicBuildingMaterial_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Glass.I_Glass_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Coil.I_Coil_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_TitaniumHousing.I_TitaniumHousing_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_IntermediateBuildingMaterial.CR_IntermediateBuildingMaterial'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_IntermediateBuildingMaterial.I_IntermediateBuildingMaterial_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_MeteorCore.I_MeteorCore_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_HeatShield.CR_HeatShield'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_HeatShieldBlueprint.I_HeatShieldBlueprint_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Aerogel.I_Aerogel_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Uberfilament.I_Uberfilament_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_ReinforcedFrame.I_ReinforcedFrame_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_HeatResistantSheet.CR_HeatResistantSheet'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_TitaniumSheet.I_TitaniumSheet_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_WolframPlate.I_WolframPlate_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Glass.I_Glass_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_HardeningAgent.CR_HardeningAgent'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_HardeningAgentBlueprint.I_HardeningAgentBlueprint_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Syringe.I_Syringe_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SilicaSand.I_SilicaSand_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SulphuricAcid.I_SulphuricAcid_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Gyroscope.CR_Gyroscope'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_GyroscopeBlueprint.I_GyroscopeBlueprint_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Rotor.I_Rotor_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_TitaniumRod.I_TitaniumRod_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Grenade.CR_Grenade'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_GrenadeBlueprint.I_GrenadeBlueprint_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_ReinforcedHousing.I_ReinforcedHousing_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Epoxy.I_Epoxy_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_GoethitePowder.CR_GoethitePowder'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_GoethiteIngot.I_GoethiteIngot_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_PressurizedHelium.I_PressurizedHelium_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_CalciumPowder.I_CalciumPowder_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_GoethiteLattice.CR_GoethiteLattice'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_GoethiteLatticeBlueprint.I_GoethiteLatticeBlueprint_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_GoethiteIngot.I_GoethiteIngot_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_UberTitanium.I_UberTitanium_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_UberWolfram.I_UberWolfram_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Glass.CR_Glass'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_HeliumOre.I_HeliumOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_CalciumPowder.I_CalciumPowder_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_GenomeAlternator.CR_GenomeAlternator'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_GenomeAlternatorBlueprint.I_GenomeAlternatorBlueprint_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Generator.CR_Generator'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Turbine.I_Turbine_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Nozzle.I_Nozzle_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Battery.I_Battery_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_FEAccessItem_ItemPrinter.CR_FEAccessItem_ItemPrinter'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Electronics.I_Electronics_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Explosive.I_Explosive_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Explosive.CR_Explosive'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_ExplosiveBlueprint.I_ExplosiveBlueprint_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SilicaSand.I_SilicaSand_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_WolframPowder.I_WolframPowder_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_HeliumOre.I_HeliumOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Epoxy.CR_Epoxy'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_GoethitePowder.I_GoethitePowder_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_LiquidHelium.I_LiquidHelium_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SyntheticResin.I_SyntheticResin_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Electronics.CR_Electronics'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_ElectronicsBlueprint.I_ElectronicsBlueprint_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SilicaSand.I_SilicaSand_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Coil.I_Coil_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Stator.I_Stator_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_ElectromagneticCoil.CR_ElectromagneticCoil'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_ElectromagneticCoilBlueprint.I_ElectromagneticCoilBlueprint_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Supermagnet.I_Supermagnet_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Coil.I_Coil_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_PressurizedHelium.I_PressurizedHelium_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Electromagnet.CR_Electromagnet'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_ElectromagneticCoil.I_ElectromagneticCoil_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SyntheticResin.I_SyntheticResin_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Accumulator.I_Accumulator_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Dome.CR_Dome'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Scafolding.I_Scafolding_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Converter.I_Converter_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Condenser.I_Condenser_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Airlock.I_Airlock_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Cyclotrone.CR_Cyclotrone'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_ReinforcedHousing.I_ReinforcedHousing_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Aerogel.I_Aerogel_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_PlasticDust.I_PlasticDust_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_IonInjector.I_IonInjector_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Converter.CR_Converter'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_UberOil.I_UberOil_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_LaserEmitter.I_LaserEmitter_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_RTSC.I_RTSC_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_ElectromagneticCoil.I_ElectromagneticCoil_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Condenser.CR_Condenser'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_CondenserBlueprint.I_CondenserBlueprint_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Resonator.I_Resonator_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Nanofibre.I_Nanofibre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Pump.I_Pump_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Coil.CR_Coil'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Tube.I_Tube_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_WolframWire.I_WolframWire_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Ceramics.I_Ceramics_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_CleanWater.CR_CleanWater'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Accumulator.I_Accumulator_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Ceramics.CR_Ceramics'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_WolframPowder.I_WolframPowder_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_CalciteSheets.I_CalciteSheets_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_CarbonSonar.CR_CarbonSonar'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_OnboardInstruments.I_OnboardInstruments_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_IonStabilizer.I_IonStabilizer_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_QuantumTranqualizer.I_QuantumTranqualizer_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Accumulator.I_Accumulator_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_CalciumPowder.CR_CalciumPowder'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_CalciumBlock.I_CalciumBlock_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_CalciumBlock.CR_CalciumBlock'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_CalciumOre.I_CalciumOre_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Biofilament.CR_Biofilament'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Superconductor.I_Superconductor_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SyntheticProtein.I_SyntheticProtein_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_RNAStabilizer.I_RNAStabilizer_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SubstanceFHS-135-493.I_SubstanceFHS-135-493_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Battery.CR_Battery'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Electronics.I_Electronics_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Coil.I_Coil_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SulphuricAcid.I_SulphuricAcid_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_BasicFuel.CR_BasicFuel'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_WolframPowder.I_WolframPowder_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_GoethitePowder.I_GoethitePowder_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_LiquidHelium.I_LiquidHelium_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_BasicBuildingMaterial_ItemPrinterELM.CR_BasicBuildingMaterial_ItemPrinterELM'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_ElementaryBuildingMaterial.I_ElementaryBuildingMaterial_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_BasicBuildingMaterial.CR_BasicBuildingMaterial'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_BasicBuildingMaterial.I_BasicBuildingMaterial_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_MeteorCore.I_MeteorCore_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_ArcReactorMaxLvl.CR_ArcReactorMaxLvl'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_ArcReactor.I_ArcReactor_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_ArcReactor.CR_ArcReactor'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_ArcReactorBlueprint.I_ArcReactorBlueprint_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_AntimatterGenerator.CR_AntimatterGenerator'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_AntimatterGeneratorBlueprint.I_AntimatterGeneratorBlueprint_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Anti-RadiationCovers.CR_Anti-RadiationCovers'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Anti-RadiationCoversBlueprint.I_Anti-RadiationCoversBlueprint_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_ReinforcedHousing.I_ReinforcedHousing_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_ReinforcedFrame.I_ReinforcedFrame_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_PseudorubberInsulator.I_PseudorubberInsulator_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Airlock.CR_Airlock'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_PseudorubberInsulator.I_PseudorubberInsulator_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Scafolding.I_Scafolding_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_PressureTank.I_PressureTank_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Uberfilament.I_Uberfilament_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/CR_Aerogel.CR_Aerogel'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_GoethitePowder.I_GoethitePowder_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_CalciumPowder.I_CalciumPowder_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_LiquidHelium.I_LiquidHelium_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_VulpirMeal.CR_VulpirMeal'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_VulpirLoot.I_VulpirLoot_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_FoxEgg.I_FoxEgg_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_TermoResPlasm.CR_TermoResPlasm'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Glowcap.I_Glowcap_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Grubbler.I_Grubbler_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_Sulbon.CR_Sulbon'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Sulheart.I_Sulheart_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_StarBites.CR_StarBites'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_StarTears.I_StarTears_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_SerpentSticks.CR_SerpentSticks'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SerpentRoot.I_SerpentRoot_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_RegenCapsules.CR_RegenCapsules'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_StarTears.I_StarTears_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Oxallop.I_Oxallop_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_RefinedVulpirEgg.CR_RefinedVulpirEgg'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_FoxEgg.I_FoxEgg_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_Purfins.CR_Purfins'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Purplant.I_Purplant_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SerpentRoot.I_SerpentRoot_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_ProcessedCoralionEgg.CR_ProcessedCoralionEgg'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_CrabEgg.I_CrabEgg_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_NutriStimShards.CR_NutriStimShards'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Prickler.I_Prickler_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Sulheart.I_Sulheart_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_NutriGel.CR_NutriGel'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Prickler.I_Prickler_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Grubbler.I_Grubbler_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_NutriFluid.CR_NutriFluid'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Prickler.I_Prickler_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_StarTears.I_StarTears_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_NutriChew.CR_NutriChew'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Prickler.I_Prickler_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_PrismHerb.I_PrismHerb_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_NutriBlockCapsules.CR_NutriBlockCapsules'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Prickler.I_Prickler_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Oxallop.I_Oxallop_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_NutriBar.CR_NutriBar'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Prickler.I_Prickler_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SerpentRoot.I_SerpentRoot_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_InfectionResPlasm.CR_InfectionResPlasm'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Glowcap.I_Glowcap_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_PrismHerb.I_PrismHerb_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_HealthShards.CR_HealthShards'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Sulheart.I_Sulheart_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_StarTears.I_StarTears_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_Figler.CR_Figler'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Prickler.I_Prickler_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_EnergyStimShards.CR_EnergyStimShards'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Sulheart.I_Sulheart_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SerpentRoot.I_SerpentRoot_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_EnergyBoostChew.CR_EnergyBoostChew'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SerpentRoot.I_SerpentRoot_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_PrismHerb.I_PrismHerb_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_EnergyBoostCapsules.CR_EnergyBoostCapsules'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SerpentRoot.I_SerpentRoot_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Oxallop.I_Oxallop_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_DrainResPlasm.CR_DrainResPlasm'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Glowcap.I_Glowcap_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SerpentRoot.I_SerpentRoot_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_CorrosionResPlasm.CR_CorrosionResPlasm'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Glowcap.I_Glowcap_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Sulheart.I_Sulheart_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_ClearCapsules.CR_ClearCapsules'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Purplant.I_Purplant_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Oxallop.I_Oxallop_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_CalorieStimShards.CR_CalorieStimShards'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Polifruit.I_Polifruit_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Sulheart.I_Sulheart_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_CalorieGel.CR_CalorieGel'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Polifruit.I_Polifruit_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Grubbler.I_Grubbler_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_CalorieFluid.CR_CalorieFluid'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Polifruit.I_Polifruit_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_StarTears.I_StarTears_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_CalorieChew.CR_CalorieChew'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Polifruit.I_Polifruit_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_PrismHerb.I_PrismHerb_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_CalorieBlockCapsules.CR_CalorieBlockCapsules'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Polifruit.I_Polifruit_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Oxallop.I_Oxallop_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_CalorieBar.CR_CalorieBar'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Polifruit.I_Polifruit_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SerpentRoot.I_SerpentRoot_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_AquaStimShards.CR_AquaStimShards'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Hydrobulb.I_Hydrobulb_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Sulheart.I_Sulheart_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_AquaGel.CR_AquaGel'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Hydrobulb.I_Hydrobulb_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Grubbler.I_Grubbler_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_AquaFluid.CR_AquaFluid'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Hydrobulb.I_Hydrobulb_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_StarTears.I_StarTears_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_AquaChew.CR_AquaChew'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Hydrobulb.I_Hydrobulb_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_PrismHerb.I_PrismHerb_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_AquaBlockCapsules.CR_AquaBlockCapsules'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Hydrobulb.I_Hydrobulb_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Oxallop.I_Oxallop_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_AquaBar.CR_AquaBar'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Hydrobulb.I_Hydrobulb_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_SerpentRoot.I_SerpentRoot_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_AntidoteShards.CR_AntidoteShards'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Purplant.I_Purplant_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Sulheart.I_Sulheart_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_AntidoteGel.CR_AntidoteGel'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Purplant.I_Purplant_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Grubbler.I_Grubbler_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/Crafting\/FoodProcessor\/CR_AntidoteFluid.CR_AntidoteFluid'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_StarTears.I_StarTears_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_Purplant.I_Purplant_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/BuildingUpgrades\/CR_WindPowerGeneratorTier2.CR_WindPowerGeneratorTier2'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_QuartzOre.I_QuartzOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_FireWaveOre.I_FireWaveOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/BuildingUpgrades\/CR_SynthesizerTier2.CR_SynthesizerTier2'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_QuartzOre.I_QuartzOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_FireWaveOre.I_FireWaveOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/BuildingUpgrades\/CR_StorageDepot.CR_StorageDepot'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_QuartzOre.I_QuartzOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_FireWaveOre.I_FireWaveOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/BuildingUpgrades\/CR_Storage.CR_Storage'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_QuartzOre.I_QuartzOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_FireWaveOre.I_FireWaveOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/BuildingUpgrades\/CR_SolarPowerGeneratorTier2.CR_SolarPowerGeneratorTier2'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_QuartzOre.I_QuartzOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_FireWaveOre.I_FireWaveOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/BuildingUpgrades\/CR_RailT5.CR_RailT5'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_QuartzOre.I_QuartzOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_FireWaveOre.I_FireWaveOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/BuildingUpgrades\/CR_RailT4.CR_RailT4'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_QuartzOre.I_QuartzOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_FireWaveOre.I_FireWaveOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/BuildingUpgrades\/CR_RailT3.CR_RailT3'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_QuartzOre.I_QuartzOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_FireWaveOre.I_FireWaveOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/BuildingUpgrades\/CR_RailT2.CR_RailT2'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_QuartzOre.I_QuartzOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_FireWaveOre.I_FireWaveOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/BuildingUpgrades\/CR_PersonalStorageBig.CR_PersonalStorageBig'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_QuartzOre.I_QuartzOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_FireWaveOre.I_FireWaveOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/BuildingUpgrades\/CR_MechanicalDrillTier2.CR_MechanicalDrillTier2'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_QuartzOre.I_QuartzOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_FireWaveOre.I_FireWaveOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/BuildingUpgrades\/CR_HabitatBig.CR_HabitatBig'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_QuartzOre.I_QuartzOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_FireWaveOre.I_FireWaveOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/BuildingUpgrades\/CR_FurnanceTier2.CR_FurnanceTier2'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_QuartzOre.I_QuartzOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_FireWaveOre.I_FireWaveOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/BuildingUpgrades\/CR_FactoryTier2.CR_FactoryTier2'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_QuartzOre.I_QuartzOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_FireWaveOre.I_FireWaveOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/BuildingUpgrades\/CR_ExporterTier2.CR_ExporterTier2'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_QuartzOre.I_QuartzOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_FireWaveOre.I_FireWaveOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/BuildingUpgrades\/CR_CrafterTier2.CR_CrafterTier2'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_QuartzOre.I_QuartzOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_FireWaveOre.I_FireWaveOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    },
+    "\/Script\/Chimera.CrItemRecipeData'\/Game\/Chimera\/BuildingUpgrades\/CR_CoolerActive.CR_CoolerActive'": {
+        "items": [
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_QuartzOre.I_QuartzOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Items\/I_FireWaveOre.I_FireWaveOre_C'",
+                "count": 0
+            },
+            {
+                "item": "\/Script\/Engine.BlueprintGeneratedClass'\/Game\/Chimera\/Corporations\/I_DataPoint.I_DataPoint_C'",
+                "count": 0
+            }
+        ]
+    }
+}

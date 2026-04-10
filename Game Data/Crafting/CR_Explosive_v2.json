@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_Explosive_v2",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_Explosive_v2",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Explosive_RecV2_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/ItemRecipiesIcons/T_Explosive_RecV2_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "Explosive_name",
+        "SourceString": "Chemicals",
+        "LocalizedString": "Chemicals"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "bShowOutputItemIcon": false,
+      "Level": 4,
+      "BaseRecipe": {
+        "ObjectName": "CrItemRecipeData'CR_Explosive'",
+        "ObjectPath": "/Game/Chimera/Crafting/CR_Explosive.0"
+      },
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_CalciumPowder_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_CalciumPowder.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_WolframPowder_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_WolframPowder.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_HeliumOre_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_HeliumOre.1"
+          },
+          "Count": 4
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_GoethiteIngot_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_GoethiteIngot.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_Explosive_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_Explosive.1"
+        },
+        "Count": 4
+      },
+      "BuildTime": 2.0
+    }
+  }
+]

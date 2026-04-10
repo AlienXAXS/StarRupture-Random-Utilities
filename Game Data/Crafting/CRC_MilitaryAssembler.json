@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "CrItemRecipeCollection",
+    "Name": "CRC_MilitaryAssembler",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeCollection'",
+    "Package": "/Game/Chimera/Crafting/CRC_MilitaryAssembler",
+    "Properties": {
+      "Recipes": [
+        {
+          "ObjectName": "CrItemRecipeData'CR_Biofilament'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Biofilament.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Converter'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Converter.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Cyclotrone'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Cyclotrone.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_RocketEngine'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_RocketEngine.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_TrackingDevice'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_TrackingDevice.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Dome'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Dome.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_IonBomb'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_IonBomb.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_RTSCGenerator'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_RTSCGenerator.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_SatelliteBody'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_SatelliteBody.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_SyntheticDNA'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_SyntheticDNA.0"
+        }
+      ]
+    }
+  }
+]

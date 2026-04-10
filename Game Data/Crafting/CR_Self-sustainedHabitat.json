@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_Self-sustainedHabitat",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_Self-sustainedHabitat",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Self-sustainedHabitat_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_Self-sustainedHabitat_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "Self-sustainedHabitat_name",
+        "SourceString": "Self-sustained Habitat",
+        "LocalizedString": "Self-sustained Habitat"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "Level": 15,
+      "Corporation": "SelenianCorporation",
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Self-sustainedHabitatBlueprint.I_Self-sustainedHabitatBlueprint_C'",
+          "Value": 1
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 1200
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_MarsHabitatBase_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_MarsHabitatBase.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_PlasmaOxygenConverter_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_PlasmaOxygenConverter.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_BasicFuel_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_BasicFuel.1"
+          },
+          "Count": 4
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Accumulator_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Accumulator.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Generator_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Generator.1"
+          },
+          "Count": 2
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_Self-sustainedHabitat_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_Self-sustainedHabitat.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 30.0
+    }
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "Type": "CrBuildingUpgradeRecipeData",
+    "Name": "BR_HabitatBig",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrBuildingUpgradeRecipeData'",
+    "Package": "/Game/Chimera/BuildingUpgrades/BR_HabitatBig",
+    "Properties": {
+      "BuildingReward": {
+        "ObjectName": "CrBuildingData'BD_HabitatBig'",
+        "ObjectPath": "/Game/Chimera/Buildings/Modular/Habitats/HabitatBig/BD_HabitatBig.0"
+      },
+      "Tasks": [
+        {
+          "ID": "2E49D39E-42E1C365-437E48B4-B2B699B2",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_BuildViewport",
+            "SourceString": "Build Viewports",
+            "LocalizedString": "Build Viewports"
+          },
+          "Context": "OnBuilt",
+          "ContextValue": "Viewport",
+          "ContextNumber": 4,
+          "bCheckConditionWhenInactive": true
+        },
+        {
+          "ID": "FE54E7EF-4F7871B4-3149B9B7-1AE9560A",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_BuildHabitat",
+            "SourceString": "Build Habitats",
+            "LocalizedString": "Build Habitats"
+          },
+          "Context": "OnBuilt",
+          "ContextValue": "Habitat",
+          "ContextNumber": 3,
+          "bCheckConditionWhenInactive": true
+        },
+        {
+          "ID": "7D2FD909-43ADFA04-992667BE-DCC0B474",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_BuildVerticalConnector",
+            "SourceString": "Build Vertical Connectors",
+            "LocalizedString": "Build Vertical Connectors"
+          },
+          "Context": "OnBuilt",
+          "ContextValue": "VerticalBridge",
+          "ContextNumber": 1,
+          "bCheckConditionWhenInactive": true
+        },
+        {
+          "ID": "C2A4EF03-4F440556-B33DA6A3-0C6D9707",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_BuildHorizontalConnector",
+            "SourceString": "Build Horizontal Connectors",
+            "LocalizedString": "Build Horizontal Connectors"
+          },
+          "Context": "OnBuilt",
+          "ContextValue": "HorizontalBridge",
+          "ContextNumber": 1,
+          "bCheckConditionWhenInactive": true
+        }
+      ],
+      "Recipe": {
+        "ObjectName": "CrItemRecipeData'CR_HabitatBig'",
+        "ObjectPath": "/Game/Chimera/BuildingUpgrades/CR_HabitatBig.0"
+      }
+    }
+  }
+]

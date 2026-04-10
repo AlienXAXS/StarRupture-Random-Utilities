@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"C:/Users/markp/Documents/GitHub/StarRupture-Random-Utilities\")",
+      "Bash(cmd /c dir \"C:\\\\Users\\\\markp\\\\Documents\\\\GitHub\\\\StarRupture-Random-Utilities\")",
+      "Bash(cmd /c \"dir C:\\\\Users\\\\markp\\\\Documents\\\\GitHub\\\\StarRupture-Random-Utilities && echo done\")",
+      "Bash(dotnet new:*)",
+      "Bash(dotnet sln:*)",
+      "Bash(dotnet add:*)",
+      "Bash(cmd /c \"cd /d \"C:\\\\Users\\\\markp\\\\Documents\\\\GitHub\\\\StarRupture-Random-Utilities\\\\uasset Json Translation Merger\\\\src\" && dotnet add package Newtonsoft.Json 2>&1\")",
+      "Bash(cmd /c \"\"C:\\\\Users\\\\markp\\\\Documents\\\\GitHub\\\\StarRupture-Random-Utilities\\\\uasset Json Translation Merger\\\\src\\\\dotnet add package Newtonsoft.Json\"\")",
+      "Bash(cmd /c \"dotnet add \\\\\"C:\\\\Users\\\\markp\\\\Documents\\\\GitHub\\\\StarRupture-Random-Utilities\\\\uasset Json Translation Merger\\\\src\\\\uasset Json Translation Merger.csproj\\\\\" package Newtonsoft.Json\")",
+      "Bash(powershell -Command \"Set-Location 'C:\\\\Users\\\\markp\\\\Documents\\\\GitHub\\\\StarRupture-Random-Utilities\\\\uasset Json Translation Merger\\\\src'; dotnet add package Newtonsoft.Json\")",
+      "Bash(powershell -Command \"Set-Location 'C:\\\\Users\\\\markp\\\\Documents\\\\GitHub\\\\StarRupture-Random-Utilities\\\\uasset Json Translation Merger\\\\src'; dotnet build 2>&1\")"
+    ]
+  }
+}

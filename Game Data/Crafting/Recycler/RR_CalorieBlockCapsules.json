@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "CrItemRecyclerRecipeData",
+    "Name": "RR_CalorieBlockCapsules",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecyclerRecipeData'",
+    "Package": "/Game/Chimera/Crafting/Recycler/RR_CalorieBlockCapsules",
+    "Properties": {
+      "InputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_CalorieBlockCapsules_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_CalorieBlockCapsules.1"
+        },
+        "Count": 1
+      },
+      "OutputResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Oxallop_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Oxallop.1"
+          },
+          "Count": 1
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "CrItemRecyclerRecipeData",
+    "Name": "RR_AmmoTest1",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecyclerRecipeData'",
+    "Package": "/Game/Chimera/Crafting/Recycler/test/RR_AmmoTest1",
+    "Properties": {
+      "InputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_PistolAmmoItem_C'",
+          "ObjectPath": "/Game/Chimera/Weapons/AmmoTypes/I_PistolAmmoItem.1"
+        },
+        "Count": 1
+      },
+      "OutputResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_BasicBuildingMaterial_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_BasicBuildingMaterial.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_TitaniumOre_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_TitaniumOre.1"
+          },
+          "Count": 1
+        }
+      ]
+    }
+  }
+]

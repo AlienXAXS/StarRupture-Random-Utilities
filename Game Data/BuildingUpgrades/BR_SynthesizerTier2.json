@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "CrBuildingUpgradeRecipeData",
+    "Name": "BR_SynthesizerTier2",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrBuildingUpgradeRecipeData'",
+    "Package": "/Game/Chimera/BuildingUpgrades/BR_SynthesizerTier2",
+    "Properties": {
+      "BuildingReward": {
+        "ObjectName": "CrBuildingData'BD_SynthetizerTier2'",
+        "ObjectPath": "/Game/Chimera/Buildings/SynthesizerTier2/BD_SynthetizerTier2.0"
+      },
+      "Tasks": [
+        {
+          "ID": "CDA9800B-45D37E4A-E8138FAC-C5E76715",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_BaseCore4_desc",
+            "SourceString": "Have a Base Core upgraded to Level 4 or higher",
+            "LocalizedString": "Have a Base Core upgraded to Level 4 or higher"
+          },
+          "Context": "OnHave",
+          "ContextValue": "BaseCore_4",
+          "ContextNumber": 1,
+          "bCheckConditionWhenInactive": true
+        },
+        {
+          "ID": "9FD8D042-4C79C940-A5D910AD-85A3206C",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_Compounder_desc",
+            "SourceString": "Unlock all Compounder recipes",
+            "LocalizedString": "Unlock all Compounder recipes"
+          },
+          "Context": "OnAllRecipesUnlocked",
+          "ContextValue": "Synthetizer",
+          "ContextNumber": 1,
+          "bCheckConditionWhenInactive": true
+        }
+      ],
+      "Recipe": {
+        "ObjectName": "CrItemRecipeData'CR_SynthesizerTier2'",
+        "ObjectPath": "/Game/Chimera/BuildingUpgrades/CR_SynthesizerTier2.0"
+      }
+    }
+  }
+]

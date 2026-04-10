@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_MegaMachine_Scenario_Test_Victory_Item",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_MegaMachine_Scenario_Test_Victory_Item",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'WhiteSquareTexture'",
+          "ObjectPath": "/Engine/EngineResources/WhiteSquareTexture.0"
+        }
+      },
+      "DisplayText": {
+        "Namespace": "",
+        "Key": "9ECDF4294DFF3FC0BDE6B091DD9D41E2",
+        "SourceString": "Victory_Item",
+        "LocalizedString": "Victory_Item"
+      },
+      "DisplayDescription": {
+        "Namespace": "",
+        "Key": "FA33360548F73D769FCE259CEEA9793C",
+        "SourceString": "Victory_Item",
+        "LocalizedString": "Victory_Item"
+      },
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Scenario_Item_A_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Scenario_Item_A.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Scenario_Item_B_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Scenario_Item_B.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_Scenario_Victory_Item_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_Scenario_Victory_Item.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 3.0
+    }
+  }
+]

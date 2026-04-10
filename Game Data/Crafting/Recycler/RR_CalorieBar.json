@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "CrItemRecyclerRecipeData",
+    "Name": "RR_CalorieBar",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecyclerRecipeData'",
+    "Package": "/Game/Chimera/Crafting/Recycler/RR_CalorieBar",
+    "Properties": {
+      "InputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_CalorieBar_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_CalorieBar.1"
+        },
+        "Count": 1
+      },
+      "OutputResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_SerpentRoot_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_SerpentRoot.1"
+          },
+          "Count": 1
+        }
+      ]
+    }
+  }
+]

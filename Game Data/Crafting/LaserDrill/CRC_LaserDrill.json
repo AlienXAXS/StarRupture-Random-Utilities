@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "CrItemRecipeCollection",
+    "Name": "CRC_LaserDrill",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeCollection'",
+    "Package": "/Game/Chimera/Crafting/LaserDrill/CRC_LaserDrill",
+    "Properties": {
+      "Recipes": [
+        {
+          "ObjectName": "CrItemRecipeData'CR_GoethiteOre_LaserDrill'",
+          "ObjectPath": "/Game/Chimera/Crafting/LaserDrill/CR_GoethiteOre_LaserDrill.0"
+        }
+      ]
+    }
+  }
+]

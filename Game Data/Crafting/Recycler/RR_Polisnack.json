@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "CrItemRecyclerRecipeData",
+    "Name": "RR_Polisnack",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecyclerRecipeData'",
+    "Package": "/Game/Chimera/Crafting/Recycler/RR_Polisnack",
+    "Properties": {
+      "InputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_Polisnack_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_Polisnack.1"
+        },
+        "Count": 1
+      },
+      "OutputResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Polifruit_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Polifruit.1"
+          },
+          "Count": 2
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "CrItemRecyclerRecipeData",
+    "Name": "RR_InfectionResPlasm",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecyclerRecipeData'",
+    "Package": "/Game/Chimera/Crafting/Recycler/RR_InfectionResPlasm",
+    "Properties": {
+      "InputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_InfectionResPlasm_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_InfectionResPlasm.1"
+        },
+        "Count": 1
+      },
+      "OutputResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_PrismHerb_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_PrismHerb.1"
+          },
+          "Count": 2
+        }
+      ]
+    }
+  }
+]

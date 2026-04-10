@@ -1,0 +1,29 @@
+[
+  {
+    "Type": "CrItemRecipeCollection",
+    "Name": "CRC_SynthetizerTier2",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeCollection'",
+    "Package": "/Game/Chimera/Crafting/CRC_SynthetizerTier2",
+    "Properties": {
+      "Recipes": [
+        {
+          "ObjectName": "CrItemRecipeData'CR_PressurizedHelium_v2'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_PressurizedHelium_v2.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_SulphuricAcid_v2'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_SulphuricAcid_v2.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_LiquidHelium_v2'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_LiquidHelium_v2.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_SyntheticResin_v2'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_SyntheticResin_v2.0"
+        }
+      ]
+    }
+  }
+]

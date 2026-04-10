@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_PlasmaOxygenConverter",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_PlasmaOxygenConverter",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_PlasmaOxygenConverter_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_PlasmaOxygenConverter_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "PlasmaOxygenConverter_name",
+        "SourceString": "Plasma Oxygen Converter",
+        "LocalizedString": "Plasma Oxygen Converter"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "Level": 14,
+      "Corporation": "SelenianCorporation",
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_PlasmaOxygenConverterBlueprint.I_PlasmaOxygenConverterBlueprint_C'",
+          "Value": 1
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 1000
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Converter_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Converter.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_PressureTank_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_PressureTank.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_PlasmaGenerator_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_PlasmaGenerator.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_ElectromagneticCoil_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_ElectromagneticCoil.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Tube_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Tube.1"
+          },
+          "Count": 3
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_PlasmaOxygenConverter_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_PlasmaOxygenConverter.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 30.0
+    }
+  }
+]

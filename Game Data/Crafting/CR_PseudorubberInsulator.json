@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_PseudorubberInsulator",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_PseudorubberInsulator",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_PseudorubberInsulator_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_PseudorubberInsulator_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "Pseudorubber Insulator_name",
+        "SourceString": "Pseudorubber Insulator",
+        "LocalizedString": "Pseudorubber Insulator"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "Level": 10,
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_UberOil.I_UberOil_C'",
+          "Value": 800
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Epoxy.I_Epoxy_C'",
+          "Value": 600
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_GoethiteLattice.I_GoethiteLattice_C'",
+          "Value": 400
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 4000
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_UberOil_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_UberOil.1"
+          },
+          "Count": 5
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Epoxy_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Epoxy.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_GoethiteLattice_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_GoethiteLattice.1"
+          },
+          "Count": 3
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_PseudorubberInsulator_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_PseudorubberInsulator.1"
+        },
+        "Count": 2
+      },
+      "BuildTime": 12.0
+    }
+  }
+]

@@ -1,0 +1,429 @@
+[
+  {
+    "Type": "CrItemRecyclerRecipeCollection",
+    "Name": "RRC_Recycler",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecyclerRecipeCollection'",
+    "Package": "/Game/Chimera/Crafting/Recycler/RRC_Recycler",
+    "Properties": {
+      "RecyclerRecipes": [
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Accumulator'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Accumulator.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Aerogel'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Aerogel.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Airlock'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Airlock.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Anti-RadiationCovers'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Anti-RadiationCovers.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_BasicFuel'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_BasicFuel.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Battery'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Battery.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Biofilament'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Biofilament.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_CalciteSheets'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_CalciteSheets.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_CalciumBlock'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_CalciumBlock.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_CalciumOre'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_CalciumOre.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_CalciumPowder'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_CalciumPowder.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_CarbonSonar'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_CarbonSonar.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Ceramics'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Ceramics.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Coil'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Coil.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Condenser'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Condenser.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Converter'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Converter.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Cyclotrone'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Cyclotrone.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Dome'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Dome.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Electromagnet'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Electromagnet.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_ElectromagneticCoil'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_ElectromagneticCoil.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Electronics'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Electronics.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Epoxy'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Epoxy.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Explosive'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Explosive.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Generator'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Generator.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Glass'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Glass.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_GoethiteIngot'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_GoethiteIngot.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_GoethiteLattice'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_GoethiteLattice.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_GoethiteOre'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_GoethiteOre.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_GoethitePowder'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_GoethitePowder.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Grenade'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Grenade.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Gyroscope'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Gyroscope.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_HardeningAgent'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_HardeningAgent.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_HeatResistantSheet'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_HeatResistantSheet.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_HeatShield'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_HeatShield.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_HeavyAmmo'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_HeavyAmmo.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_HeliumOre'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_HeliumOre.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Impeller'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Impeller.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_IonBomb'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_IonBomb.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_IonInjector'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_IonInjector.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_IonStabilizer'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_IonStabilizer.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_IonThrusters'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_IonThrusters.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_LaserEmitter'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_LaserEmitter.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Lens'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Lens.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_LiquidHelium'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_LiquidHelium.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_MagicOilOre'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_MagicOilOre.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Nanofibre'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Nanofibre.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Nanosyringe'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Nanosyringe.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Nozzle'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Nozzle.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_OnboardInstruments'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_OnboardInstruments.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_OrganicCompound'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_OrganicCompound.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_PistolAmmo'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_PistolAmmo.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_PlasticDust'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_PlasticDust.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_PowerCell'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_PowerCell.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_PressureTank'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_PressureTank.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_PressurizedHelium'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_PressurizedHelium.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_PseudorubberInsulator'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_PseudorubberInsulator.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Pump'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Pump.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_QuantumTranqualizer'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_QuantumTranqualizer.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_RefinedOil'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_RefinedOil.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_ReinforcedFrame'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_ReinforcedFrame.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_ReinforcedHousing'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_ReinforcedHousing.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Resonator'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Resonator.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_RNAStabilizer'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_RNAStabilizer.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_RocketEngine'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_RocketEngine.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_RocketFuel'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_RocketFuel.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Rotor'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Rotor.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_RTSC'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_RTSC.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_RTSCGenerator'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_RTSCGenerator.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_SatelliteBody'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_SatelliteBody.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Scafolding'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Scafolding.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Scanner'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Scanner.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_ShotgunAmmo'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_ShotgunAmmo.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_SilicaSand'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_SilicaSand.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_StandardAmmo'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_StandardAmmo.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Stator'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Stator.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_SubstanceFHS-135-493'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_SubstanceFHS-135-493.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_SulphuricAcid'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_SulphuricAcid.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_SulphurOre'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_SulphurOre.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Superconductor'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Superconductor.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Supermagnet'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Supermagnet.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_SyntheticDNA'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_SyntheticDNA.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_SyntheticProtein'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_SyntheticProtein.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_SyntheticResin'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_SyntheticResin.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Syringe'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Syringe.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_TitaniumBar'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_TitaniumBar.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_TitaniumBeam'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_TitaniumBeam.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_TitaniumHousing'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_TitaniumHousing.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_TitaniumOre'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_TitaniumOre.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_TitaniumRod'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_TitaniumRod.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_TitaniumSheet'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_TitaniumSheet.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_TrackingDevice'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_TrackingDevice.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Tube'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Tube.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Turbine'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Turbine.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Uberfilament'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Uberfilament.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_UberOil'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_UberOil.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_UberTitanium'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_UberTitanium.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_UberWolfram'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_UberWolfram.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_Valve'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_Valve.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_WolframBar'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_WolframBar.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_WolframOre'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_WolframOre.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_WolframPlate'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_WolframPlate.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_WolframPowder'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_WolframPowder.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_WolframWire'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_WolframWire.0"
+        },
+        {
+          "ObjectName": "CrItemRecyclerRecipeData'RR_QuartzBuildingMaterial'",
+          "ObjectPath": "/Game/Chimera/Crafting/Recycler/RR_QuartzBuildingMaterial.0"
+        }
+      ]
+    }
+  }
+]

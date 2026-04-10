@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_SyntheticFertilizer",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_SyntheticFertilizer",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_SyntheticFertilizer_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_SyntheticFertilizer_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "SyntheticFertilizer_name",
+        "SourceString": "Synthetic Fertilizer",
+        "LocalizedString": "Synthetic Fertilizer"
+      },
+      "DisplayDescription": {
+        "Namespace": "",
+        "Key": "2F919388473C511B249E16AB159CDB7F",
+        "SourceString": "<MISSING STRING TABLE ENTRY>",
+        "LocalizedString": "<MISSING STRING TABLE ENTRY>"
+      },
+      "Level": 7,
+      "Corporation": "SelenianCorporation",
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_LiquidHelium_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_LiquidHelium.1"
+          },
+          "Count": 8
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_PlasticDust_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_PlasticDust.1"
+          },
+          "Count": 5
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_SyntheticFertilizer_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_SyntheticFertilizer.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 8.0
+    }
+  }
+]

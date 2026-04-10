@@ -1,0 +1,42 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_CalciumOreImpure_MechanicalDrillTier2",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/MechanicalDrillTier2/CR_CalciumOreImpure_MechanicalDrillTier2",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 750.0,
+          "Y": 500.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_CalciumImpure_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/RawMaterialsIcons/T_CalciumImpure_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CalciumOreImpure_name",
+        "SourceString": "Calcium Ore (Impure)",
+        "LocalizedString": "Calcium Ore (Impure)"
+      },
+      "DisplayDescription": {
+        "Namespace": "",
+        "Key": "6FAB3973475AB376509B028DB563CB12",
+        "SourceString": "Ore",
+        "LocalizedString": "Ore"
+      },
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_CalciumOre_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_CalciumOre.1"
+        },
+        "Count": 6
+      },
+      "BuildTime": 2.0
+    }
+  }
+]

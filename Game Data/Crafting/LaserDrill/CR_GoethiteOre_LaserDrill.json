@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_GoethiteOre_LaserDrill",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/LaserDrill/CR_GoethiteOre_LaserDrill",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 750.0,
+          "Y": 500.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Goethite2_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/RawMaterialsIcons/T_Goethite2_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "Goethite_name",
+        "SourceString": "Goethite Ore",
+        "LocalizedString": "Goethite Ore"
+      },
+      "DisplayDescription": {
+        "Namespace": "",
+        "Key": "5D78658F44FBFDE030C6129861A36B56",
+        "SourceString": "Ore",
+        "LocalizedString": "Ore"
+      },
+      "Level": 8,
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_GoethiteOre_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_GoethiteOre.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 4.0
+    }
+  }
+]

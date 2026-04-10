@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_PlaceholderCraftingRecipe",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_PlaceholderCraftingRecipe",
+    "Properties": {
+      "Icon": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SR_buildingIconSTART'",
+          "ObjectPath": "/Game/Chimera/UI/Buildings/CommonAssets/Textures/SR_buildingIconSTART.0"
+        }
+      },
+      "DisplayText": {
+        "Namespace": "",
+        "Key": "AD65A348452CFA455D6D94B04C28F782",
+        "SourceString": "Crafting test",
+        "LocalizedString": "Crafting test"
+      },
+      "DisplayDescription": {
+        "Namespace": "",
+        "Key": "A649D9044E68C4ECFDEC068D2F0E7484",
+        "SourceString": "Crafting test",
+        "LocalizedString": "Crafting test"
+      },
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_PlaceholderCraftingIngredient_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_PlaceholderCraftingIngredient.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_PlaceholderCraftingResult_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_PlaceholderCraftingResult.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 5.0
+    }
+  }
+]

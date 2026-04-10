@@ -1,0 +1,72 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_CalorieChew",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/FoodProcessor/CR_CalorieChew",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Caloriechew_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_Caloriechew_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Consumables.Consumables",
+        "Key": "CalorieChew_name",
+        "SourceString": "Calorie Chew",
+        "LocalizedString": "Calorie Chew"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Consumables.Consumables",
+        "Key": "CalorieChew_desc",
+        "SourceString": "Eat for effects. Gain 40 Calories.",
+        "LocalizedString": "Eat to gain effect. Gain 40 Calories."
+      },
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Polifruit.I_Polifruit_C'",
+          "Value": 70
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_PrismHerb.I_PrismHerb_C'",
+          "Value": 20
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 400
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Polifruit_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Polifruit.1"
+          },
+          "Count": 5
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_PrismHerb_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_PrismHerb.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_CalorieChew_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_CalorieChew.1"
+        },
+        "Count": 3
+      },
+      "BuildTime": 0.0
+    }
+  }
+]

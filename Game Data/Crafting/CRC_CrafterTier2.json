@@ -1,0 +1,41 @@
+[
+  {
+    "Type": "CrItemRecipeCollection",
+    "Name": "CRC_CrafterTier2",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeCollection'",
+    "Package": "/Game/Chimera/Crafting/CRC_CrafterTier2",
+    "Properties": {
+      "Recipes": [
+        {
+          "ObjectName": "CrItemRecipeData'CR_TitaniumRod_v2'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_TitaniumRod_v2.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_TitaniumSheet_v2'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_TitaniumSheet_v2.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_WolframPlate_v2'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_WolframPlate_v2.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_WolframWire_v2'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_WolframWire_v2.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Rotor_v2'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Rotor_v2.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Tube_v2'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Tube_v2.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Stator_v2'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Stator_v2.0"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_IonBomb",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_IonBomb",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_IonBomb_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_IonBomb_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "IonBomb_name",
+        "SourceString": "Ion Bomb",
+        "LocalizedString": "Ion Bomb"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "Level": 13,
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_TrackingDevice.I_TrackingDevice_C'",
+          "Value": 200
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_IonInjector.I_IonInjector_C'",
+          "Value": 100
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_IonStabilizer.I_IonStabilizer_C'",
+          "Value": 400
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Grenade.I_Grenade_C'",
+          "Value": 600
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 8000
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_IonInjector_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_IonInjector.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_IonStabilizer_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_IonStabilizer.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Grenade_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Grenade.1"
+          },
+          "Count": 6
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_TrackingDevice_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_TrackingDevice.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Resonator_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Resonator.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_IonBomb_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_IonBomb.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 20.0
+    }
+  }
+]

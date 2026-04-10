@@ -1,0 +1,88 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_GoethiteLattice",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_GoethiteLattice",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_GoethiteLattice_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_GoethiteLattice_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "Goethite Lattice_name",
+        "SourceString": "Goethite Lattice",
+        "LocalizedString": "Goethite Lattice"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "Level": 8,
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_GoethiteLatticeBlueprint.I_GoethiteLatticeBlueprint_C'",
+          "Value": 1
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_GoethiteIngot.I_GoethiteIngot_C'",
+          "Value": 600
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_UberTitanium.I_UberTitanium_C'",
+          "Value": 400
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_UberWolfram.I_UberWolfram_C'",
+          "Value": 400
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 2000
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_GoethiteIngot_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_GoethiteIngot.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_UberTitanium_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_UberTitanium.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_UberWolfram_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_UberWolfram.1"
+          },
+          "Count": 2
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_GoethiteLattice_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_GoethiteLattice.1"
+        },
+        "Count": 2
+      },
+      "BuildTime": 3.0
+    }
+  }
+]

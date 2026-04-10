@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "CrBuildingUpgradeRecipeData",
+    "Name": "BR_RailT3",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrBuildingUpgradeRecipeData'",
+    "Package": "/Game/Chimera/BuildingUpgrades/BR_RailT3",
+    "Properties": {
+      "BuildingReward": {
+        "ObjectName": "CrBuildingData'BD_DroneRailT3'",
+        "ObjectPath": "/Game/Chimera/Buildings/DroneConnections/DroneRail/BD_DroneRailT3.0"
+      },
+      "Tasks": [
+        {
+          "ID": "F118B0E6-4530EDA0-9D079EB4-B72578F9",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_RailT3_Unlock_desc",
+            "SourceString": "Unlock Drone Rail v.2",
+            "LocalizedString": "Unlock Drone Rail v.2"
+          },
+          "Context": "OnBuildingUpgraded",
+          "ContextValue": "DroneRailT2",
+          "ContextNumber": 1,
+          "bCheckConditionWhenInactive": true
+        },
+        {
+          "ID": "1CF91487-4FC403BE-65148A90-45EB653E",
+          "EntryText": {
+            "TableId": "/Game/Chimera/Localization/StringTables/ContentUpdate_1.ContentUpdate_1",
+            "Key": "UpgradeStation_RailLength_desc",
+            "SourceString": "Length of Drone Rails built",
+            "LocalizedString": "Length of Drone Rails built"
+          },
+          "Context": "OnHave",
+          "ContextValue": "RailsLength",
+          "ContextNumber": 3000,
+          "bCheckConditionWhenInactive": true
+        }
+      ],
+      "Recipe": {
+        "ObjectName": "CrItemRecipeData'CR_RailT3'",
+        "ObjectPath": "/Game/Chimera/BuildingUpgrades/CR_RailT3.0"
+      }
+    }
+  }
+]

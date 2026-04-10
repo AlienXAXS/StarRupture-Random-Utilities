@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "CrItemRecyclerRecipeData",
+    "Name": "RR_QuartzBuildingMaterial",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecyclerRecipeData'",
+    "Package": "/Game/Chimera/Crafting/Recycler/RR_QuartzBuildingMaterial",
+    "Properties": {
+      "InputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_QuartzBuildingMaterial_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_QuartzBuildingMaterial.1"
+        },
+        "Count": 20
+      },
+      "OutputResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_QuartzOre_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_QuartzOre.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_IntermediateBuildingMaterial_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_IntermediateBuildingMaterial.1"
+          },
+          "Count": 50
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "CrItemRecyclerRecipeData",
+    "Name": "RR_InterMaterialTest3",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecyclerRecipeData'",
+    "Package": "/Game/Chimera/Crafting/Recycler/test/RR_InterMaterialTest3",
+    "Properties": {
+      "InputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_IntermediateBuildingMaterial_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_IntermediateBuildingMaterial.1"
+        },
+        "Count": 1
+      },
+      "OutputResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Polifruit_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Polifruit.1"
+          },
+          "Count": 5
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_TitaniumOre_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_TitaniumOre.1"
+          },
+          "Count": 4
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_HeliumOre_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_HeliumOre.1"
+          },
+          "Count": 3
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_CalciumOre_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_CalciumOre.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_WolframOre_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_WolframOre.1"
+          },
+          "Count": 1
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_AntimatterGenerator",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_AntimatterGenerator",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_AntimatterGenerator_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_AntimatterGenerator_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "AntimatterGenerator_name",
+        "SourceString": "Antimatter Generator",
+        "LocalizedString": "Antimatter Generator"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "Level": 14,
+      "Corporation": "MoonCorporation",
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_AntimatterGeneratorBlueprint.I_AntimatterGeneratorBlueprint_C'",
+          "Value": 1
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 1000
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_RTSC_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_RTSC.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Cyclotrone_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Cyclotrone.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Anti-RadiationCovers_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Anti-RadiationCovers.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Rotor_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Rotor.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Stator_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Stator.1"
+          },
+          "Count": 2
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_AntimatterGenerator_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_AntimatterGenerator.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 30.0
+    }
+  }
+]

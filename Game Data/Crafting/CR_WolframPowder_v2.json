@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_WolframPowder_v2",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_WolframPowder_v2",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_WolframPowder_RecV2_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/ItemRecipiesIcons/T_WolframPowder_RecV2_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "WolframPowder_name",
+        "SourceString": "Wolfram Powder",
+        "LocalizedString": "Wolfram Powder"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterial_desc",
+        "SourceString": "Crafting Material. Used in various recipes.",
+        "LocalizedString": "Crafting Material. Used in various recipes."
+      },
+      "bShowOutputItemIcon": false,
+      "Level": 2,
+      "BaseRecipe": {
+        "ObjectName": "CrItemRecipeData'CR_WolframPowder'",
+        "ObjectPath": "/Game/Chimera/Crafting/CR_WolframPowder.0"
+      },
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_WolframBar_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_WolframBar.1"
+          },
+          "Count": 2
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_WolframPowder_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_WolframPowder.1"
+        },
+        "Count": 10
+      },
+      "BuildTime": 2.0
+    }
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "CrItemRecyclerRecipeData",
+    "Name": "RR_AmmoTest2",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecyclerRecipeData'",
+    "Package": "/Game/Chimera/Crafting/Recycler/test/RR_AmmoTest2",
+    "Properties": {
+      "InputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_StandardAmmoItem_C'",
+          "ObjectPath": "/Game/Chimera/Weapons/AmmoTypes/I_StandardAmmoItem.1"
+        },
+        "Count": 1
+      },
+      "OutputResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_IntermediateBuildingMaterial_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_IntermediateBuildingMaterial.1"
+          },
+          "Count": 1
+        }
+      ]
+    }
+  }
+]

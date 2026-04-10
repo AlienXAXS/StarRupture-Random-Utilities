@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "CrItemRecipeCollection",
+    "Name": "CRC_MechanicalDrill",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeCollection'",
+    "Package": "/Game/Chimera/Crafting/MechanicalDrill/CRC_MechanicalDrill",
+    "Properties": {
+      "Recipes": [
+        {
+          "ObjectName": "CrItemRecipeData'CR_WolframOre_MechanicalDrill'",
+          "ObjectPath": "/Game/Chimera/Crafting/MechanicalDrill/CR_WolframOre_MechanicalDrill.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_CalciumOre_MechanicalDrill'",
+          "ObjectPath": "/Game/Chimera/Crafting/MechanicalDrill/CR_CalciumOre_MechanicalDrill.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_TitaniumOre_MechanicalDrill'",
+          "ObjectPath": "/Game/Chimera/Crafting/MechanicalDrill/CR_TitaniumOre_MechanicalDrill.0"
+        }
+      ]
+    }
+  }
+]

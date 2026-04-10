@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "CrItemRecipeCollection",
+    "Name": "CRC_FactoryTier2",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeCollection'",
+    "Package": "/Game/Chimera/Crafting/CRC_FactoryTier2",
+    "Properties": {
+      "Recipes": [
+        {
+          "ObjectName": "CrItemRecipeData'CR_Condenser_v2'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Condenser_v2.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_IonInjector_v2'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_IonInjector_v2.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_LaserEmitter_v2'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_LaserEmitter_v2.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Scanner_v2'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Scanner_v2.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Superconductor_v2'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Superconductor_v2.0"
+        }
+      ]
+    }
+  }
+]

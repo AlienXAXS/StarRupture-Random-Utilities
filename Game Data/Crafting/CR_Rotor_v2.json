@@ -1,0 +1,71 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_Rotor_v2",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_Rotor_v2",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Rotor_RecV2_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/ItemRecipiesIcons/T_Rotor_RecV2_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "Rotor_name",
+        "SourceString": "Rotor",
+        "LocalizedString": "Rotor"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "bShowOutputItemIcon": false,
+      "Level": 3,
+      "BaseRecipe": {
+        "ObjectName": "CrItemRecipeData'CR_Rotor'",
+        "ObjectPath": "/Game/Chimera/Crafting/CR_Rotor.0"
+      },
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_TitaniumRod_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_TitaniumRod.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_WolframWire_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_WolframWire.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_WolframPlate_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_WolframPlate.1"
+          },
+          "Count": 1
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_Rotor_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_Rotor.1"
+        },
+        "Count": 6
+      },
+      "BuildTime": 6.0
+    }
+  }
+]

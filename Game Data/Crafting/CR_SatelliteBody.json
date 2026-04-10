@@ -1,0 +1,102 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_SatelliteBody",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/CR_SatelliteBody",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_SatelliteBody_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/ItemIcons/T_SatelliteBody_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "SatelliteBody_name",
+        "SourceString": "Satellite Body",
+        "LocalizedString": "Satellite Body"
+      },
+      "DisplayDescription": {
+        "TableId": "/Game/Chimera/Localization/StringTables/Items.Items",
+        "Key": "CraftingMaterialExport_desc",
+        "SourceString": "Crafting Material. Used in various recipes. Can be exported.",
+        "LocalizedString": "Crafting Material. Used in various recipes. Can be exported."
+      },
+      "Level": 11,
+      "UnlockRequirements": [
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_RocketEngine.I_RocketEngine_C'",
+          "Value": 600
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_OnboardInstruments.I_OnboardInstruments_C'",
+          "Value": 800
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_Scanner.I_Scanner_C'",
+          "Value": 100
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Items/I_IonThrusters.I_IonThrusters_C'",
+          "Value": 400
+        },
+        {
+          "Key": "BlueprintGeneratedClass'/Game/Chimera/Corporations/I_DataPoint.I_DataPoint_C'",
+          "Value": 8000
+        }
+      ],
+      "NeededResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_OnboardInstruments_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_OnboardInstruments.1"
+          },
+          "Count": 4
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_Scanner_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_Scanner.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_IonThrusters_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_IonThrusters.1"
+          },
+          "Count": 2
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_RocketEngine_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_RocketEngine.1"
+          },
+          "Count": 1
+        },
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_HeatShield_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_HeatShield.1"
+          },
+          "Count": 6
+        }
+      ],
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_SatelliteBody_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_SatelliteBody.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 20.0
+    }
+  }
+]

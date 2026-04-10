@@ -1,0 +1,69 @@
+[
+  {
+    "Type": "CrItemRecipeCollection",
+    "Name": "CRC_Synthetizer",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeCollection'",
+    "Package": "/Game/Chimera/Crafting/CRC_Synthetizer",
+    "Properties": {
+      "Recipes": [
+        {
+          "ObjectName": "CrItemRecipeData'CR_SyntheticResin'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_SyntheticResin.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_LiquidHelium'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_LiquidHelium.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Lens'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Lens.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Nanofibre'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Nanofibre.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_IonInjector'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_IonInjector.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Superconductor'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Superconductor.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_GoethitePowder'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_GoethitePowder.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Epoxy'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Epoxy.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_SubstanceFHS-135-493'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_SubstanceFHS-135-493.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_UberOil'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_UberOil.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_BasicFuel'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_BasicFuel.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_OrganicCompound'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_OrganicCompound.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_Aerogel'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_Aerogel.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_SyntheticProtein'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_SyntheticProtein.0"
+        }
+      ]
+    }
+  }
+]

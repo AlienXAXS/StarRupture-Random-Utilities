@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "CrItemRecyclerRecipeData",
+    "Name": "RR_CalorieChew",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecyclerRecipeData'",
+    "Package": "/Game/Chimera/Crafting/Recycler/RR_CalorieChew",
+    "Properties": {
+      "InputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_CalorieChew_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_CalorieChew.1"
+        },
+        "Count": 1
+      },
+      "OutputResources": [
+        {
+          "Item": {
+            "ObjectName": "BlueprintGeneratedClass'I_PrismHerb_C'",
+            "ObjectPath": "/Game/Chimera/Items/I_PrismHerb.1"
+          },
+          "Count": 1
+        }
+      ]
+    }
+  }
+]

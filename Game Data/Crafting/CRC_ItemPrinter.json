@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "CrItemRecipeCollection",
+    "Name": "CRC_ItemPrinter",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeCollection'",
+    "Package": "/Game/Chimera/Crafting/CRC_ItemPrinter",
+    "Properties": {
+      "Recipes": [
+        {
+          "ObjectName": "CrItemRecipeData'CR_BasicBuildingMaterial_ItemPrinter'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_BasicBuildingMaterial_ItemPrinter.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_IntermediateBuildingMaterial_ItemPrinter'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_IntermediateBuildingMaterial_ItemPrinter.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_PistolAmmo_ItemPrinter'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_PistolAmmo_ItemPrinter.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_StandardAmmo_ItemPrinter'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_StandardAmmo_ItemPrinter.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_ShotgunAmmo_ItemPrinter'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_ShotgunAmmo_ItemPrinter.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_HeavyAmmo_ItemPrinter'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_HeavyAmmo_ItemPrinter.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_FEAccessItem_ItemPrinter'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_FEAccessItem_ItemPrinter.0"
+        },
+        {
+          "ObjectName": "CrItemRecipeData'CR_BasicBuildingMaterial_ItemPrinterELM'",
+          "ObjectPath": "/Game/Chimera/Crafting/CR_BasicBuildingMaterial_ItemPrinterELM.0"
+        }
+      ]
+    }
+  }
+]

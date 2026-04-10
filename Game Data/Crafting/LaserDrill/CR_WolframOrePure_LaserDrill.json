@@ -1,0 +1,42 @@
+[
+  {
+    "Type": "CrItemRecipeData",
+    "Name": "CR_WolframOrePure_LaserDrill",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrItemRecipeData'",
+    "Package": "/Game/Chimera/Crafting/LaserDrill/CR_WolframOrePure_LaserDrill",
+    "Properties": {
+      "Icon": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 750.0,
+          "Y": 500.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_WolframePure_Icon'",
+          "ObjectPath": "/Game/Chimera/UI/RawMaterialsIcons/T_WolframePure_Icon.0"
+        }
+      },
+      "DisplayText": {
+        "Namespace": "",
+        "Key": "9DE299D6416EC2183BCA17BA640BF774",
+        "SourceString": "Wolfram (Pure)",
+        "LocalizedString": "Wolfram (Pure)"
+      },
+      "DisplayDescription": {
+        "Namespace": "",
+        "Key": "CAC2D01147337AEB678F3DBC51BBF2DA",
+        "SourceString": "Ore",
+        "LocalizedString": "Ore"
+      },
+      "OutputItem": {
+        "Item": {
+          "ObjectName": "BlueprintGeneratedClass'I_WolframOre_C'",
+          "ObjectPath": "/Game/Chimera/Items/I_WolframOre.1"
+        },
+        "Count": 1
+      },
+      "BuildTime": 0.5
+    }
+  }
+]
